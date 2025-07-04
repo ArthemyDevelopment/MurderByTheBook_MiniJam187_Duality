@@ -57,8 +57,8 @@ MonoBehaviour:
       Data: 
   Reusable: 1
   Icon: {fileID: 21300000, guid: 3b278b34e31275e4b9641176aec29a49, type: 3}
-  Name: Bloody Knife
-  Description: A knife with blood in the tip. Matches the wound in the victim's chest.
+  Name: Clues/MatchingBloodiedKnife/Name
+  Description: Clues/MatchingBloodiedKnife/Desc
   GiveInformation: 1
   multipleInformation: 0
   ClueInformation: {fileID: 11400000, guid: 45338fe373c02f94d94dab486a89b4cc, type: 2}

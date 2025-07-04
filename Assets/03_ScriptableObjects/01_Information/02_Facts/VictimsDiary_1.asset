@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: The victim's diary had pages cut with precision, but stains of
-    blood where left behind.
+  informationText: Information/Facts/VictimsDiary1
   OverrideInfo:
   - {fileID: 11400000, guid: 60a55be80b58db44e85eff42ceb759d2, type: 2}
   BlockedByInfo: []

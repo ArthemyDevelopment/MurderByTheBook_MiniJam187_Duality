@@ -23,7 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: 'The victim was working on a draft for his new novel Its missing
-    at the moment. Where could it be? '
+  informationText: Information/Leads/VictimNewDraft
   OverrideInfo: []
   BlockedByInfo: []

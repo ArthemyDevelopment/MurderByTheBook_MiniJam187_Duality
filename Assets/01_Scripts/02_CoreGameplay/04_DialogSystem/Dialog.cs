@@ -4,6 +4,5 @@ using UnityEngine;
 public class Dialog : ScriptableObject
 {
     public Sprite ChrIcon;
-    [TextArea]public string DialogText;
-    [KeysPopUp] public string testLocText;
+    [KeysPopUp]public string DialogText;
 }

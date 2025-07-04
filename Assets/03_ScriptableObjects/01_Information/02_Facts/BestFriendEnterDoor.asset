@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: The best friend enter through the main door before midnight. He
-    arrived angry and leave scared a few minutes latter.
+  informationText: Information/Facts/BestfriendEnterDoor
   OverrideInfo:
   - {fileID: 11400000, guid: a40e82d8a9fd94347b3ba72e175eee09, type: 2}
   - {fileID: 11400000, guid: 784c00a3d3f801640a609e11798c4425, type: 2}

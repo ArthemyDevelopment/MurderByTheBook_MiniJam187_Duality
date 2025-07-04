@@ -43,9 +43,8 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: df5b17a01a01c3f4cb084353e1afb94f, type: 3}
-  Name: 'Ragged Cloth '
-  Description: A piece of cloth from a victim girlfiend's dress. Found in the kitchens
-    window. Suggest she got in avoiding the security cameras.
+  Name: Clues/GirlfriendsRaggedCloth/Name
+  Description: Clues/GirlfriendsRaggedCloth/Desc
   GiveInformation: 1
   multipleInformation: 0
   ClueInformation: {fileID: 11400000, guid: e1859f7cc2e668445b6018ccc0460ecd, type: 2}

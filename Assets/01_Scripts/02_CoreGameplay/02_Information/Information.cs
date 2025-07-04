@@ -8,7 +8,7 @@ public class Information : SerializedScriptableObject
 {
     public InfoTypes type;
     public Sprite icon; 
-    [TextArea] public string informationText;
+    [KeysPopUp]public string informationText;
     [SerializeField] public List<Information> OverrideInfo;
     [SerializeField] public List<Information> BlockedByInfo;
     

@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: There was a boodly knife hidden in the victim's nightstand. Who
-    put it there?
+  informationText: Information/Leads/BloodyKnifeBedroom
   OverrideInfo:
   - {fileID: 11400000, guid: ff93a886adb9ce041a769cb1e749078e, type: 2}
   BlockedByInfo: []

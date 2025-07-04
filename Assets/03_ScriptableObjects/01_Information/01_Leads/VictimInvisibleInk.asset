@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: The victim was interested in ways of concealing texts. There might
-    be something in his office.
+  informationText: Information/Leads/VictimInvicibleInk
   OverrideInfo: []
   BlockedByInfo:
   - {fileID: 11400000, guid: faa5cc915006723479c9842a567378e9, type: 2}

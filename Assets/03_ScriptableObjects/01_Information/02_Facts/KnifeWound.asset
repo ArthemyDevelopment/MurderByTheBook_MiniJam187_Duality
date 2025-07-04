@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: The bloody knife match the stab wounds in the victim's chest.
-    At some point the victim was stabed using this knife.
+  informationText: Information/Facts/KnifeWound
   OverrideInfo:
   - {fileID: 11400000, guid: ff93a886adb9ce041a769cb1e749078e, type: 2}
   BlockedByInfo: []

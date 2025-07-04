@@ -23,7 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: Something or someone came through the kitchen window. They left
-    a piece of cloth.
+  informationText: Information/Leads/ClothWindow
   OverrideInfo: []
   BlockedByInfo: []

@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: The victim was interested in invisible inks that are revealed
-    by heath. There is a reagent in his office.
+  informationText: Information/Leads/VictimInvicibleInkHeat
   OverrideInfo:
   - {fileID: 11400000, guid: 8a994d9dc4ffeeb438bc3043422514f5, type: 2}
   BlockedByInfo: []

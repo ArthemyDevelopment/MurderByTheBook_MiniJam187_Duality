@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Friend_Default
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: 0feac0c8748620140ba49f9e1ceef682, type: 3}
-  DialogText: I don't know dude, I know nothing, still in shock.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/Friend/Default

@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: The victim was working on a draft for his new book.
+  informationText: Information/Facts/VictimNewBook1
   OverrideInfo: []
   BlockedByInfo:
   - {fileID: 11400000, guid: e2d76f64ed2dbfe4b8b9db703a771a4c, type: 2}

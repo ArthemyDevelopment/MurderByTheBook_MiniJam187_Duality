@@ -23,6 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: Someone searched the victim's room. What were they looking for?
+  informationText: Information/Leads/VictimRoomSearched
   OverrideInfo: []
   BlockedByInfo: []

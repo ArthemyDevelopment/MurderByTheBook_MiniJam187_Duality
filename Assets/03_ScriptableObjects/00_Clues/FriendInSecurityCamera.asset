@@ -43,12 +43,12 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: 30f82ee8cd1fd2a46a2eb5f2f15e5abc, type: 3}
-  Name: Security Camera footage
-  Description: Footage from the security camera in the front door. The victim's best
-    friend is shown entering and leaving the house shortly before midnight. He appears
-    angry as he enters and frightened as he leaves.
+  Name: Clues/FriendInSecurityCamera/Name
+  Description: Clues/FriendInSecurityCamera/Desc
   GiveInformation: 1
   multipleInformation: 0
   ClueInformation: {fileID: 11400000, guid: 98c151d733e17c74aaace6cda0acdce9, type: 2}
   MultiInformation: []
+  ForceReplaceClue: 0
+  clueToReplace: {fileID: 0}
   type: 2

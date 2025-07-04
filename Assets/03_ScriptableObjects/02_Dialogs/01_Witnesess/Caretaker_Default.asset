@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Caretaker_Default
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: d65b1f7f556640f49b1dfbf44f0d380e, type: 3}
-  DialogText: There is little to no help in showing me that.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/CareTaker/Default

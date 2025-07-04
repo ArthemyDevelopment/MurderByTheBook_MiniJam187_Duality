@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Police_Default
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: 1ff138adc90c39343b9fa878a3bb0f90, type: 3}
-  DialogText: Thanks for keeping me up with your investigation.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/Police/Default

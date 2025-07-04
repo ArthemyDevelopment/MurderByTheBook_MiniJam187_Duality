@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: The girlfirend was stealing money from her husband to finance
-    the writing of books and the growth of the publishing house.
+  informationText: Information/Facts/GirlfriendMotive2
   OverrideInfo:
   - {fileID: 11400000, guid: 970fb8c32db0d2e49a39961c37ef7621, type: 2}
   - {fileID: 11400000, guid: 03754b53c74ce5a448337248e14681c3, type: 2}

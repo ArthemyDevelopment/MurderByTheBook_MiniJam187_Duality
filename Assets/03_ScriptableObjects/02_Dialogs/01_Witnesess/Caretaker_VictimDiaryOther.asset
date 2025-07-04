@@ -13,7 +13,4 @@ MonoBehaviour:
   m_Name: Caretaker_VictimDiaryOther
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: d65b1f7f556640f49b1dfbf44f0d380e, type: 3}
-  DialogText: I would have wished you had came to me first about this. It contanins
-    a lot of sensitive information. This is how you can read some of it. The rest
-    only the lord knew how.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/CareTaker/DiaryOther

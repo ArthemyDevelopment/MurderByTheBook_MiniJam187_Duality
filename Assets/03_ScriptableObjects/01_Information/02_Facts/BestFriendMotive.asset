@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: The vicitm plagiarised his firsts books. His best friend knew
-    and help him get away with it creating a publishing house.
+  informationText: Information/Facts/BestfriendMotive
   OverrideInfo:
   - {fileID: 11400000, guid: afba28270e0af4d4884bc8e79327aeab, type: 2}
   - {fileID: 11400000, guid: 822548fe85ef75a40ac58c2d0ee4c7ef, type: 2}

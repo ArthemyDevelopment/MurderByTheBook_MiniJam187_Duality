@@ -23,7 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: There are multiple wounds in the victim's body. Hard to tell the
-    cause of death or identifying the murder weapon by looking it.
+  informationText: Information/Leads/MultipleWoundsBody
   OverrideInfo: []
   BlockedByInfo: []

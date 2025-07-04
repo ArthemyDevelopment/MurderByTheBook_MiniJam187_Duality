@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: The victim's diary has pages cut with the bloody knife.
+  informationText: Information/Facts/VictimsDiary2
   OverrideInfo:
   - {fileID: 11400000, guid: 3bd6f4af62853ba4dba342ce0e2afadc, type: 2}
   BlockedByInfo: []

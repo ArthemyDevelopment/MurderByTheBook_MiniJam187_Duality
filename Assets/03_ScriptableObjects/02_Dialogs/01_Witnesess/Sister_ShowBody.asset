@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: Sister_ShowBody
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: 5d45d8f3022059a49a92895dcab16e3a, type: 3}
-  DialogText: My poor brother, we didn't get along, but we respected each other.
-    I hope the camera outside caught something.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/Sister/Body

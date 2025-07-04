@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: Someone got in and out the property through the main door near
-    the time of death.
+  informationText: Information/Facts/SuspectEnterDoor
   OverrideInfo:
   - {fileID: 11400000, guid: 784c00a3d3f801640a609e11798c4425, type: 2}
   BlockedByInfo: []

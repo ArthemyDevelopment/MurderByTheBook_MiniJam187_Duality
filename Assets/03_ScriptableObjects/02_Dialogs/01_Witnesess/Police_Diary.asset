@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: Police_Diary
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: 1ff138adc90c39343b9fa878a3bb0f90, type: 3}
-  DialogText: Hmmm, interesting way of writing information, but I can't help you
-    with that, maybe the butler "no-butler" can help you.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/Police/Diary

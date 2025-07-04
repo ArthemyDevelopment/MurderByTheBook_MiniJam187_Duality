@@ -23,7 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: Cause of death is head trauma or stab wounds in the chest. Both
-    were pre-mortem and it's hard to tell which one was first.
+  informationText: Information/Facts/CauseOfDeath
   OverrideInfo: []
   BlockedByInfo: []

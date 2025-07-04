@@ -57,8 +57,8 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: 7f865b9b368a0d746b1ce5a3ac8fb616, type: 3}
-  Name: Invisible Ink Revealer
-  Description: A bottle with a liquid the victim use to reveal invisible ink.
+  Name: Clues/InvisibleInk/Name
+  Description: Clues/InvisibleInk/Desc
   GiveInformation: 0
   multipleInformation: 0
   ClueInformation: {fileID: 0}

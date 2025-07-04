@@ -23,7 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: The victim's memory was failing so he wrote important things on
-    his diary. What valuable infomation can I find here?
+  informationText: Information/Leads/VictimMemoryLost
   OverrideInfo: []
   BlockedByInfo: []

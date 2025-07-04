@@ -23,6 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: The best friend was concern about the draft. Why?
+  informationText: Information/Leads/BestFriendConcernDraft
   OverrideInfo: []
   BlockedByInfo: []

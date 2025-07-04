@@ -23,6 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: Time of death is closed to midnight.
+  informationText: Information/Facts/TimeOfDeath
   OverrideInfo: []
   BlockedByInfo: []

@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 0
   icon: {fileID: 21300000, guid: d65b1f7f556640f49b1dfbf44f0d380e, type: 3}
-  informationText: "Victim's house care taker, he insist he is not a butler. \n\nFound
-    the victim in his office. Knows the victim's personal life very well."
+  informationText: Information/Suspects/Caretaker2
   OverrideInfo:
   - {fileID: 11400000, guid: 26e52a44068b211479ddde22417fe809, type: 2}
   BlockedByInfo: []

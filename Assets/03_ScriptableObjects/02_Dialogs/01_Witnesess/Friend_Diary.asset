@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Friend_Diary
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: 0feac0c8748620140ba49f9e1ceef682, type: 3}
-  DialogText: Cool book, but have no idea how to read it.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/Friend/Diary

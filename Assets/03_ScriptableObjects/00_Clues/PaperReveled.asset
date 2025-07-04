@@ -43,9 +43,8 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: 9bdf093dd2db0f04dac43bd8dfb0c644, type: 3}
-  Name: Paper with secret message
-  Description: A piece of paper with invisible ink revealed, used to find the hidden
-    compartment in the office walls.
+  Name: Clues/PaperRevealed/Name
+  Description: Clues/PaperRevealed/Desc
   GiveInformation: 1
   multipleInformation: 0
   ClueInformation: {fileID: 11400000, guid: f72ed2741c8602d47a0166062be80b4f, type: 2}

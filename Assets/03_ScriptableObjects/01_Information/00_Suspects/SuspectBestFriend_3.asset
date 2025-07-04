@@ -23,11 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 0
   icon: {fileID: 435429667062075967, guid: ae3fc6b17981bb241af8af541623eeeb, type: 3}
-  informationText: "Victim's best friend, they know each other from collage and are
-    co-founders of the publishing house that publishes the victim's books. \nLately
-    had issues with the victim because of his latest novel. There he tells how they
-    plagiarised in the early years and founded the publishing house to avoid close
-    inspection."
+  informationText: Information/Suspects/BestFriend3
   OverrideInfo:
   - {fileID: 11400000, guid: ba8ed375d2aef934da5c24c9bf86d144, type: 2}
   - {fileID: 11400000, guid: ba8ed375d2aef934da5c24c9bf86d144, type: 2}

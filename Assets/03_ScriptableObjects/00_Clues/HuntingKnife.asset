@@ -43,7 +43,11 @@ MonoBehaviour:
       Data: 
   Reusable: 1
   Icon: {fileID: 21300000, guid: e55ab61d934564e42adadf16371b711a, type: 3}
-  Name: Hunting Knife
-  Description: My favourite hunting knife, never leave home without it.
+  Name: Clues/HuntingKnife/Name
+  Description: Clues/HuntingKnife/Desc
   GiveInformation: 0
+  multipleInformation: 0
   ClueInformation: {fileID: 0}
+  MultiInformation: []
+  ForceReplaceClue: 0
+  clueToReplace: {fileID: 0}

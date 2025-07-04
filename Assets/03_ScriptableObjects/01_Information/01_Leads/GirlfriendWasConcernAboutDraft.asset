@@ -23,6 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: The girlfriend was concern about the draft. Why?
+  informationText: Information/Leads/GirlfriendConcernDraft
   OverrideInfo: []
   BlockedByInfo: []

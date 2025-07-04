@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: There is a missing knife at the kitchen. Misplaced? Or stolen?
+  informationText: Information/Leads/MissingKnife
   OverrideInfo: []
   BlockedByInfo:
   - {fileID: 11400000, guid: 67f6d8f24e4b66f40b65338adc77a036, type: 2}

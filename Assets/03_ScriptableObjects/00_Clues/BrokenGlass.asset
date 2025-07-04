@@ -43,9 +43,11 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: f2528d6436ece7241847f009f482072b, type: 3}
-  Name: Broken Glasses
-  Description: A couple of glasses broken, suggest the victim meet with someone.
+  Name: Clues/BrokenGlass/Name
+  Description: Clues/BrokenGlass/Desc
   GiveInformation: 1
   multipleInformation: 0
   ClueInformation: {fileID: 11400000, guid: c2a1a6a6a85e6984fb54b41ba7f8dd63, type: 2}
   MultiInformation: []
+  ForceReplaceClue: 0
+  clueToReplace: {fileID: 0}

@@ -57,9 +57,8 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: 9f02f1cfc2b0fb34d8280cca6b0e9f5e, type: 3}
-  Name: Security Camera footage
-  Description: Footage from the security camera in the front door. Shows a lot of
-    people entering and leaving the house but no way of identifing them.
+  Name: Clues/SecurityCamera/Name
+  Description: Clues/SecurityCamera/Desc
   GiveInformation: 1
   multipleInformation: 0
   ClueInformation: {fileID: 11400000, guid: a40e82d8a9fd94347b3ba72e175eee09, type: 2}

@@ -43,9 +43,8 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: 1840c6ba514f7f445b8a52182929cb36, type: 3}
-  Name: Torn paper
-  Description: A torn letter from the victim's friend. Looks like a heated argument.
-    Can't read the content.
+  Name: Clues/TornPaper/Name
+  Description: Clues/TornPaper/Desc
   GiveInformation: 0
   multipleInformation: 0
   ClueInformation: {fileID: 0}

@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: Girlfriend enter the house through the kitchen window at some
-    point in the night.
+  informationText: Information/Facts/GirlfriendWindow
   OverrideInfo:
   - {fileID: 11400000, guid: 1ab43f1d6235323469d8525e567ad3d9, type: 2}
   - {fileID: 11400000, guid: 808cf533d168859498a6b469fe75b138, type: 2}

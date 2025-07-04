@@ -13,7 +13,4 @@ MonoBehaviour:
   m_Name: Sister_ShowDiary
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: 5d45d8f3022059a49a92895dcab16e3a, type: 3}
-  DialogText: My brother used to write a lot about his personal life. Don't know
-    how to read it but last I knew he fought with his best friend, it had something
-    to do with his new novel.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/Sister/Diary

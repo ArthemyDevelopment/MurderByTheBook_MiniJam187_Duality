@@ -23,7 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: The victim meet with someone before he died. They fought and it
-    seems he lost. With whom? And why they fought?
+  informationText: Information/Leads/VictimMeetSomeone
   OverrideInfo: []
   BlockedByInfo: []

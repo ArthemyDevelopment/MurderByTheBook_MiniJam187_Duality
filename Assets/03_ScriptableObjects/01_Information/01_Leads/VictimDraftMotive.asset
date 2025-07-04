@@ -23,7 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: Looks like the victim's new draft has something to do with his
-    murder. But what? and why?
+  informationText: Information/Leads/VictimDraftMotive
   OverrideInfo: []
   BlockedByInfo: []

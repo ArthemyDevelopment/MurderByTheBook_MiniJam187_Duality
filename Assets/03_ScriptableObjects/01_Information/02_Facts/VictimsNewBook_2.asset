@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 2
   icon: {fileID: 0}
-  informationText: The victim was writing an autobiography disguised as fiction confessing
-    secrets. The girlfriend and best friend didn't like it.
+  informationText: Information/Facts/VictimNewBook2
   OverrideInfo:
   - {fileID: 11400000, guid: 5db3fc9996c6b6744af2708ebf5c362d, type: 2}
   - {fileID: 11400000, guid: 95849384567cfc3429342b134ff40e27, type: 2}

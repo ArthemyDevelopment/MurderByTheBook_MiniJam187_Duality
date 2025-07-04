@@ -13,8 +13,4 @@ MonoBehaviour:
   m_Name: Police_Body
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: 1ff138adc90c39343b9fa878a3bb0f90, type: 3}
-  DialogText: The time of death is near midnight. All the presents here have alleged
-    alibis, still need to check them. The cause of death is hard to determine without
-    proper examination, but is either the head trauma or the stab wounds in the chest.
-    Both were pre-mortem.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/Police/Body

@@ -23,8 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: According to the sister, the house has cameras at the front door.
-    Worth checking them.
+  informationText: Information/Leads/FronDoorCameras
   OverrideInfo: []
   BlockedByInfo:
   - {fileID: 11400000, guid: a40e82d8a9fd94347b3ba72e175eee09, type: 2}

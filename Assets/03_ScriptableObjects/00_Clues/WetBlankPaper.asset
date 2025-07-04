@@ -57,9 +57,8 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: e09713fc5e6dd2040a59a3e89936164c, type: 3}
-  Name: Paper with invisible ink revealer
-  Description: Blank paper with invisible ink revealer all over it. Need someting
-    more for the reaction.
+  Name: Clues/WetBlankPaper/Name
+  Description: Clues/WetBlankPaper/Desc
   GiveInformation: 0
   multipleInformation: 0
   ClueInformation: {fileID: 0}

@@ -9,8 +9,8 @@ public class Clue : SerializedScriptableObject
 {
     [SerializeField] private bool Reusable;
     [SerializeField] private Sprite Icon;
-    [SerializeField] private string Name;
-    [SerializeField, TextArea] private string Description;
+    [SerializeField] [KeysPopUp]private string Name;
+    [SerializeField] [KeysPopUp]private string Description;
     [SerializeField] private Dictionary<Clue,Clue> Combinations = new Dictionary<Clue, Clue>();
 
     [SerializeField] private bool GiveInformation;

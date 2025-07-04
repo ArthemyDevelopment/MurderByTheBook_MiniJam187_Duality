@@ -23,7 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: There is something hidden in the nightstand, but I can't open
-    the side with my hands.
+  informationText: Information/Leads/HiddenNightTable
   OverrideInfo: []
   BlockedByInfo: []

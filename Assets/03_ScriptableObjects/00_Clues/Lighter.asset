@@ -57,7 +57,11 @@ MonoBehaviour:
       Data: 
   Reusable: 1
   Icon: {fileID: 21300000, guid: 14c82cbb17155da45bdc99927a82cff6, type: 3}
-  Name: Lighter
-  Description: My favourite lighter, never leave home without it.
+  Name: Clues/Ligher/Name
+  Description: Clues/Ligher/Desc
   GiveInformation: 0
+  multipleInformation: 0
   ClueInformation: {fileID: 0}
+  MultiInformation: []
+  ForceReplaceClue: 0
+  clueToReplace: {fileID: 0}

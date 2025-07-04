@@ -71,8 +71,11 @@ MonoBehaviour:
       Data: 
   Reusable: 1
   Icon: {fileID: 21300000, guid: a2f5cd1a010652d458b91dd0027b4352, type: 3}
-  Name: Photo
-  Description: A photo from the victim's desk, it shows a lot of people, including
-    the victim's girlfriend and best friend.
+  Name: Clues/IdentifiedPeoplePicture/Name
+  Description: Clues/IdentifiedPeoplePicture/Desc
   GiveInformation: 0
+  multipleInformation: 0
   ClueInformation: {fileID: 0}
+  MultiInformation: []
+  ForceReplaceClue: 0
+  clueToReplace: {fileID: 0}

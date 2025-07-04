@@ -43,9 +43,8 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: 746744ae87192434187d34f2e6c60a36, type: 3}
-  Name: Broken Statuette
-  Description: A statuette broken by a heavy impact. Matches the wound in the victim's
-    head.
+  Name: Clues/MatchingBrokenStatuette/Name
+  Description: Clues/MatchingBrokenStatuette/Desc
   GiveInformation: 1
   multipleInformation: 0
   ClueInformation: {fileID: 11400000, guid: c6150dc4f119d3d4d98e6b4beaddbf5d, type: 2}

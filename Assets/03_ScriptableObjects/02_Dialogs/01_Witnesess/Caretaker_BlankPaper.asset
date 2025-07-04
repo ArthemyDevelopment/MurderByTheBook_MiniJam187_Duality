@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: Caretaker_BlankPaper
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: d65b1f7f556640f49b1dfbf44f0d380e, type: 3}
-  DialogText: Lately the lord was obsesed with secret messages and invisible inks.
-    There is a revealer in his office, it might help.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/CareTaker/Paper

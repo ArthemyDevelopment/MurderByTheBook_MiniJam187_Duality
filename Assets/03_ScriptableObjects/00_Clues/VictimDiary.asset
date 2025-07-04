@@ -98,10 +98,8 @@ MonoBehaviour:
       Data: 
   Reusable: 1
   Icon: {fileID: 21300000, guid: 5d8efd711c3e47341a0b517529c0fd73, type: 3}
-  Name: Victim's Diary
-  Description: Victim's diary, it's written in a strange way, can't decipher it but
-    someone might know. A couple of pages where cut and it looks like it has some
-    blood.
+  Name: Clues/VictimDiary/Name
+  Description: Clues/VictimDiary/Desc
   GiveInformation: 1
   multipleInformation: 0
   ClueInformation: {fileID: 11400000, guid: 3bd6f4af62853ba4dba342ce0e2afadc, type: 2}

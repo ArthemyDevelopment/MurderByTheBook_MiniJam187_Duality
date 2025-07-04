@@ -23,7 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: The victim's office is a mess. Hard to tell if it's because of
-    the fight or someone searched the place.
+  informationText: Information/Leads/VictimOfficeDestroyed
   OverrideInfo: []
   BlockedByInfo: []

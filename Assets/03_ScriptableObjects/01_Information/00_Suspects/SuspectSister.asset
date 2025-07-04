@@ -23,11 +23,6 @@ MonoBehaviour:
     SerializationNodes: []
   type: 0
   icon: {fileID: 21300000, guid: 5d45d8f3022059a49a92895dcab16e3a, type: 3}
-  informationText: 'Victim''s sister. They hate each other since childhood.
-
-
-
-    Was
-    alegedly out of town up until this morning.'
+  informationText: Information/Suspects/Sister
   OverrideInfo: []
   BlockedByInfo: []

@@ -13,8 +13,4 @@ MonoBehaviour:
   m_Name: Caretaker_VictimDiaryFirst
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 21300000, guid: d65b1f7f556640f49b1dfbf44f0d380e, type: 3}
-  DialogText: Oh thank you for showing me that first. The lord was having memory
-    issues the past few years and wrote down everything he could. That diary has
-    quite the sensitive information, be carefull with this information. Here is how
-    to read it.
-  testLocText: Language
+  DialogText: Dialogs/Witnesess/CareTaker/DiaryFirst

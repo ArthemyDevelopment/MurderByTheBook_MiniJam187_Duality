@@ -71,9 +71,8 @@ MonoBehaviour:
       Data: 
   Reusable: 1
   Icon: {fileID: 21300000, guid: 1eff5f05e2468fe4db97bcfe2ec9f153, type: 3}
-  Name: Victim's Body
-  Description: The body of the victim found in his office. Has two deadly wounds,
-    stabs in the chest and head trauma. Might help to identify the murder weapon.
+  Name: Clues/VictimsBodyPostCop/Name
+  Description: Clues/VictimsBodyPostCop/Desc
   GiveInformation: 0
   multipleInformation: 1
   ClueInformation: {fileID: 0}

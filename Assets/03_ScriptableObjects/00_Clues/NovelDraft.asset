@@ -43,9 +43,8 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: 1a17e8ddbdb0f354984c0f4050646124, type: 3}
-  Name: Draft novel
-  Description: The draft of the victim's latest novel. Tells secrets disguised as
-    fiction involving his girlfriend and best friend. Could ruin their lives.
+  Name: Clues/NovelDraft/Name
+  Description: Clues/NovelDraft/Desc
   GiveInformation: 1
   multipleInformation: 1
   ClueInformation: {fileID: 0}

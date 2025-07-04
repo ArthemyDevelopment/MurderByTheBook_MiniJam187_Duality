@@ -109,8 +109,8 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: 5240b8bd4f3f99f42bf16f67c3118d6f, type: 3}
-  Name: 'Ragged Cloth '
-  Description: A piece of red cloth ragged found in the kitchen. It's origin is unknown.
+  Name: Clues/RaggedCloth/Name
+  Description: Clues/RaggedCloth/Desc
   GiveInformation: 1
   multipleInformation: 0
   ClueInformation: {fileID: 11400000, guid: 1ab43f1d6235323469d8525e567ad3d9, type: 2}
