@@ -4,6 +4,7 @@ using UnityEngine;
 public class GrabClueAction : BaseAction
 {
     [BoxGroup("GrabClueProperties")][SerializeField] private Clue clue;
+    [BoxGroup("GrabClueProperties")][SerializeField] private Dialog DialogFeedback;
     [BoxGroup("GrabClueProperties")][SerializeField] private bool deactivateOnGrab;
     [BoxGroup("GrabClueProperties")][SerializeField] private bool clueGrabed;
     public bool isClueGrabed() { return clueGrabed; }
@@ -16,6 +17,7 @@ public class GrabClueAction : BaseAction
             return;
         }
             
+        if (clueGrabed) return;
         
         base.TriggerAction();
         AddClueToInventory();
@@ -23,13 +25,10 @@ public class GrabClueAction : BaseAction
 
     public void AddClueToInventory()
     {
-        if (clueGrabed)
-        {
-            //Dialog
-            return;
-        }
+
         InventoryManager.current.StoreClue(clue);
         clueGrabed = true;
+        DialogManager.current.TriggerDialog(DialogFeedback);
         if (deactivateOnGrab) gameObject.SetActive(false);
         else
         {

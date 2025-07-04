@@ -10,7 +10,8 @@ public class PresentClueToWitnes : BaseAction
 
     [BoxGroup("PresentClueToWitness")][OdinSerialize]private Dictionary<Clue, WitnesInformation> GetInfo;
 
-    [BoxGroup("PresentClueToWitness")][SerializeField] private UnityEvent OnNoInteraction;
+    [BoxGroup("PresentClueToWitness/InvalidClue")] [SerializeField] private Dialog DefaultAnswer;
+    [BoxGroup("PresentClueToWitness/InvalidClue")][SerializeField] private UnityEvent OnNoInteraction;
 
     private bool isUsed;
     
@@ -32,22 +33,27 @@ public class PresentClueToWitnes : BaseAction
             {
                 InformationManager.current.AddInformation(GetInfo[temp].InfoToGive[i]);
             }
+            DialogManager.current.TriggerDialog(GetInfo[temp].WitnessAnswer);
             GetInfo[temp].OnUse.Invoke();
             
         }
         else
         {
+            DialogManager.current.TriggerDialog(DefaultAnswer);
             OnNoInteraction.Invoke();
         }
         InteractionsManager.current.DeselectItem();
         
     }
+    
+    
 }
 
 //Can't fix typo cause reset the values in inspector.
 [Serializable]
 public struct WitnesInformation
 {
+    public Dialog WitnessAnswer;
     public List<Information> InfoToGive;
     public UnityEvent OnUse;
 }

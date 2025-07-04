@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 295743352}
   - component: {fileID: 295743354}
   - component: {fileID: 295743353}
+  - component: {fileID: 295743355}
   m_Layer: 5
   m_Name: GameTitle
   m_TagString: Untagged
@@ -255,6 +256,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295743351}
   m_CullTransparentMesh: 1
+--- !u!114 &295743355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295743351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Menu/Title
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &445799945
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,6 +417,7 @@ GameObject:
   - component: {fileID: 504583240}
   - component: {fileID: 504583242}
   - component: {fileID: 504583241}
+  - component: {fileID: 504583243}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -428,9 +464,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Created by\nMat\xEDas Mellado\n\n3D assets\nSyntyStudios - Polygon\nKenney
-    Assets\nAleksandcazal DetectiveOffice\n\n2D assets\nKenney Assets\nBDragon1727\n\nMusic
-    by Eric Matyas\nwww.soundimage.org \n"
+  m_text: "Created by\\nMat\xEDas Mellado\\n\\n3D assets\\nSyntyStudios - Polygon\\nKenney
+    Assets\\nAleksandcazal DetectiveOffice\\n\\n2D assets\\nKenney Assets\\nBDragon1727\\n\\nMusic
+    by Eric Matyas\\nwww.soundimage.org"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
@@ -509,6 +545,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504583239}
   m_CullTransparentMesh: 1
+--- !u!114 &504583243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504583239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Menu/Credits/Text
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &535815500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1317,6 +1387,7 @@ GameObject:
   - component: {fileID: 692711967}
   - component: {fileID: 692711966}
   - component: {fileID: 692711969}
+  - component: {fileID: 692711970}
   m_Layer: 5
   m_Name: PlayGame
   m_TagString: Untagged
@@ -1451,6 +1522,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: Introduction
+--- !u!114 &692711970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692711964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 1
+  key: Menu/Start
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 2
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &761663373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2376,6 +2481,7 @@ GameObject:
   - component: {fileID: 1052134326}
   - component: {fileID: 1052134325}
   - component: {fileID: 1052134324}
+  - component: {fileID: 1052134328}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -2522,6 +2628,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052134322}
   m_CullTransparentMesh: 1
+--- !u!114 &1052134328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052134322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 1
+  key: Menu/Exit
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 2
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1178095993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2746,6 +2886,7 @@ GameObject:
   - component: {fileID: 2144366599}
   - component: {fileID: 2144366598}
   - component: {fileID: 2144366597}
+  - component: {fileID: 2144366601}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -2892,6 +3033,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144366595}
   m_CullTransparentMesh: 1
+--- !u!114 &2144366601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144366595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 1
+  key: Menu/Credits/Title
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 2
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

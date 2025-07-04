@@ -1,25 +1,32 @@
 using System;
 using System.Collections;
 using ArthemyDev.ScriptsTools;
+using JetBrains.Annotations;
+using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogManager : MonoBehaviour
+public class DialogManager : SingletonManager<DialogManager>
 {
-    [SerializeField]private GameObject Mouse;
-    [SerializeField]private GameObject OpenNotebook;
+    [BoxGroup("UIElements")][SerializeField]private GameObject Mouse;
+    [BoxGroup("UIElements")][SerializeField]private GameObject OpenNotebook;
 
-    [SerializeField]private GameObject DialogBox;
-    [SerializeField]private Image DialogChrIcon;
-    [SerializeField]private TMP_Text DialogTextArea;
-    [SerializeField]private float delayTextChar;
+    [BoxGroup("Dialog properties")][SerializeField]private GameObject DialogBox;
+    [BoxGroup("Dialog properties")][SerializeField]private AudioSource TextSFX;
+    [BoxGroup("Dialog properties")][SerializeField]private Image DialogChrIcon;
+    [BoxGroup("Dialog properties")][SerializeField]private TMP_Text DialogTextArea;
+    [BoxGroup("Dialog properties/Sizes")][SerializeField]private float DialogTextAreaSize_Witness;
+    [BoxGroup("Dialog properties/Sizes")][SerializeField]private float DialogTextAreaSize_Player;
+    [BoxGroup("Dialog properties")][SerializeField]private float delayTextChar;
     private Coroutine ShowTextCoroutine;
     private bool showingText;
     private bool isTextComplete;
+
     
     public void TriggerDialog(Dialog dialog)
     {
+        if (dialog == null) return;
         InitDialogBox(dialog.ChrIcon);
         ShowTextCoroutine = StartCoroutine(ShowText(dialog.DialogText));
     }
@@ -29,8 +36,28 @@ public class DialogManager : MonoBehaviour
         showingText = true;
         Mouse.SetActive(false);
         OpenNotebook.SetActive(false);
-        DialogChrIcon.sprite = sprite;
+
+        if (sprite != null)
+        {
+            SetWitnessDialog();
+            DialogChrIcon.sprite = sprite;
+        }
+        else SetPlayerDialog();
+        
         DialogBox.SetActive(true);
+        
+    }
+
+    private void SetWitnessDialog()
+    {
+        DialogChrIcon.gameObject.SetActive(true);
+        DialogTextArea.rectTransform.sizeDelta = new Vector2(DialogTextAreaSize_Witness, DialogTextArea.rectTransform.sizeDelta.y);
+    }
+    
+    private void SetPlayerDialog()
+    {
+        DialogChrIcon.gameObject.SetActive(false);
+        DialogTextArea.rectTransform.sizeDelta = new Vector2(DialogTextAreaSize_Player, DialogTextArea.rectTransform.sizeDelta.y);
     }
 
     private IEnumerator ShowText(string text)
@@ -40,6 +67,7 @@ public class DialogManager : MonoBehaviour
         for (int i = 0; i < DialogTextArea.text.Length; i++)
         {
             DialogTextArea.maxVisibleCharacters = i + 1;
+            TextSFX.Play();
             yield return ScriptsTools.GetWait(delayTextChar);
         }
 
@@ -53,6 +81,7 @@ public class DialogManager : MonoBehaviour
         Mouse.SetActive(true);
         OpenNotebook.SetActive(true);
         showingText = false;
+
     }
 
     private void Update()
