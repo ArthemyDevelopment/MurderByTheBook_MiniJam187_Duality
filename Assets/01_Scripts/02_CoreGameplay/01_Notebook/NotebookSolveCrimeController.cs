@@ -5,6 +5,7 @@ public class NotebookSolveCrimeController : MonoBehaviour
 {
     [BoxGroup("Solutions")]
     [BoxGroup("Solutions")][SerializeField] private GameObject SolveCrimeButton;
+    [BoxGroup("Solutions")][SerializeField] private GameObject TextsCluesTypes;
     [BoxGroup("Solutions/Slots")][SerializeField] private InventorySlotController WeaponSlot;
     [BoxGroup("Solutions/Slots")][SerializeField] private InventorySlotController MotiveSlot;
     [BoxGroup("Solutions/Slots")][SerializeField] private InventorySlotController OpportunitySlot;
@@ -24,6 +25,7 @@ public class NotebookSolveCrimeController : MonoBehaviour
     private void OnEnable()
     {
         SolveCrimeButton.SetActive(false);
+        TextsCluesTypes.SetActive(true);
         CheckAllEvidence();
     }
 
@@ -68,7 +70,10 @@ public class NotebookSolveCrimeController : MonoBehaviour
     private void CheckAllEvidence()
     {
         if (WeaponSlot.IsClueInSlot() && MotiveSlot.IsClueInSlot() && OpportunitySlot.IsClueInSlot())
+        {
             SolveCrimeButton.SetActive(true);
+            TextsCluesTypes.SetActive(false);
+        }
     }
     
 }

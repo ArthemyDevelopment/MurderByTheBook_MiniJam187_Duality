@@ -154,7 +154,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 342}
-  m_SizeDelta: {x: 1170.7698, y: 50}
+  m_SizeDelta: {x: 1528.7249, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &191632335
 MonoBehaviour:
@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: A famous novelist was found dead in his home.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -461,7 +461,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -300}
-  m_SizeDelta: {x: 1190.1001, y: 50}
+  m_SizeDelta: {x: 1553.9653, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853105082
 MonoBehaviour:
@@ -485,8 +485,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: What really happen that night?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -740,7 +740,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 28}
-  m_SizeDelta: {x: 1190.1001, y: 50}
+  m_SizeDelta: {x: 1553.9653, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1501599261
 MonoBehaviour:
@@ -764,8 +764,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You didn't wanted to get involved but there is something fishy.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -876,7 +876,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 189}
-  m_SizeDelta: {x: 1190.1001, y: 50}
+  m_SizeDelta: {x: 1553.9653, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1937805470
 MonoBehaviour:
@@ -900,8 +900,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: The police suspect of a break-in gone wrong.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1012,7 +1012,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -140}
-  m_SizeDelta: {x: 1190.1001, y: 50}
+  m_SizeDelta: {x: 1553.9653, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2125225444
 MonoBehaviour:
@@ -1036,8 +1036,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Two deadly wounds and nothing stolen.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -370,7 +370,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -145}
-  m_SizeDelta: {x: 815.4343, y: 70.1647}
+  m_SizeDelta: {x: 1007.3394, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1191940048
 MonoBehaviour:
@@ -394,8 +394,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Maybe there wasn't really any foul play, maybe it was a break-in.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -506,7 +506,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 164}
-  m_SizeDelta: {x: 1069.1, y: 70.1647}
+  m_SizeDelta: {x: 1320.7028, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1240375123
 MonoBehaviour:
@@ -530,8 +530,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: They move in with the theory of the break-in gone wrong.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -666,8 +666,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ending 1/4
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a5f3eda27e4e64045be9ede72768c331, type: 2}
+  m_sharedMaterial: {fileID: 8277395603001628577, guid: a5f3eda27e4e64045be9ede72768c331, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -999,7 +999,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 323}
-  m_SizeDelta: {x: 1069.1008, y: 70.1647}
+  m_SizeDelta: {x: 1320.7039, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605975113
 MonoBehaviour:
@@ -1023,8 +1023,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You couldn't convice the police of any foul play being done.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1214,7 +1214,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -295}
-  m_SizeDelta: {x: 1042.1167, y: 70.1647}
+  m_SizeDelta: {x: 1287.3691, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839168466
 MonoBehaviour:
@@ -1238,8 +1238,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: This murder will forever remain a mystery.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1374,8 +1374,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bad Ending
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a5f3eda27e4e64045be9ede72768c331, type: 2}
+  m_sharedMaterial: {fileID: 8277395603001628577, guid: a5f3eda27e4e64045be9ede72768c331, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1774,7 +1774,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 22}
-  m_SizeDelta: {x: 906.1074, y: 70.1647}
+  m_SizeDelta: {x: 1119.3514, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2139625771
 MonoBehaviour:
@@ -1799,8 +1799,8 @@ MonoBehaviour:
   m_text: Due to lack of evidence or stolen objects they couldn't continue with the
     investigation.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

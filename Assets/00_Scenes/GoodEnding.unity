@@ -154,7 +154,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -145}
-  m_SizeDelta: {x: 1042.1167, y: 70.1647}
+  m_SizeDelta: {x: 1334.125, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249137546
 MonoBehaviour:
@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Her money can't get her away from this.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -431,7 +431,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -117}
-  m_SizeDelta: {x: 609.8894, y: 95.4056}
+  m_SizeDelta: {x: 1926.3357, y: 95.4056}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &499956841
 MonoBehaviour:
@@ -455,8 +455,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ending 4/4
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a5f3eda27e4e64045be9ede72768c331, type: 2}
+  m_sharedMaterial: {fileID: 8277395603001628577, guid: a5f3eda27e4e64045be9ede72768c331, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -647,7 +647,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 22}
-  m_SizeDelta: {x: 1042.1167, y: 70.1647}
+  m_SizeDelta: {x: 1334.125, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954719631
 MonoBehaviour:
@@ -671,8 +671,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: She was arrested at the airport trying to flee the country.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -998,7 +998,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 122}
-  m_SizeDelta: {x: 609.8894, y: 95.4056}
+  m_SizeDelta: {x: 1926.3357, y: 95.4056}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409172050
 MonoBehaviour:
@@ -1022,8 +1022,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Good Ending
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a5f3eda27e4e64045be9ede72768c331, type: 2}
+  m_sharedMaterial: {fileID: 8277395603001628577, guid: a5f3eda27e4e64045be9ede72768c331, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1226,7 +1226,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 323}
-  m_SizeDelta: {x: 924.7515, y: 70.1647}
+  m_SizeDelta: {x: 1183.8733, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640560753
 MonoBehaviour:
@@ -1251,8 +1251,8 @@ MonoBehaviour:
   m_text: The police was conviced that this wasn't a break-in gone wrong. The girlfriend
     was behind this.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1639,7 +1639,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 164}
-  m_SizeDelta: {x: 887.7551, y: 70.1647}
+  m_SizeDelta: {x: 1136.5101, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1835681654
 MonoBehaviour:
@@ -1663,8 +1663,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: They put an arrest warrant as soon as they could.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1775,7 +1775,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -295}
-  m_SizeDelta: {x: 1042.1167, y: 70.1647}
+  m_SizeDelta: {x: 1334.125, y: 70.1647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917832236
 MonoBehaviour:
@@ -1799,8 +1799,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Justice was made.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
+  m_sharedMaterial: {fileID: -1174537626604288217, guid: a55821d26eb67b14ca13a6463b366cf2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
