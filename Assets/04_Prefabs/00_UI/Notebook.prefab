@@ -211,7 +211,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3658066570386010780}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5224633
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1024,8 +1024,8 @@ MonoBehaviour:
   notebookMouse: {fileID: 9152168428236277034}
   ClueInfo: {fileID: 7095326761375010924}
   SelectedClueIcon: {fileID: 7957400870120657957}
-  SelectedClueName: {fileID: 746143194480971919}
-  SelectedClueDesc: {fileID: 2671904833498777089}
+  SelectedClueName: {fileID: 1695853289023763117}
+  SelectedClueDesc: {fileID: 7998210934070872015}
   CombinationSlot_1: {fileID: 1425881446714716309}
   CombinationSlot_2: {fileID: 8991456801284333484}
   CombineButton: {fileID: 2033410924325137585}
@@ -1657,6 +1657,177 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1073477975947171465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7579439345292513592}
+  - component: {fileID: 7824700520948815279}
+  - component: {fileID: 2725390976795054964}
+  - component: {fileID: 3168740778580578598}
+  m_Layer: 5
+  m_Name: MotiveText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7579439345292513592
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073477975947171465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2804490631936022230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 198, y: -74.851}
+  m_SizeDelta: {x: 363.3813, y: 42.44}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7824700520948815279
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073477975947171465}
+  m_CullTransparentMesh: 1
+--- !u!114 &2725390976795054964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073477975947171465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Why the victim was killed?
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
+  m_sharedMaterial: {fileID: 1279033634469437068, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -100
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3168740778580578598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073477975947171465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/MotiveText
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1234430863573580978
 GameObject:
   m_ObjectHideFlags: 0
@@ -2829,6 +3000,177 @@ RectTransform:
   m_AnchoredPosition: {x: 29.57306, y: 0}
   m_SizeDelta: {x: 59.146973, y: 560.18}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2577809481049383987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4869883981174191577}
+  - component: {fileID: 5319894760741736876}
+  - component: {fileID: 4136774147459531426}
+  - component: {fileID: 8252379343572125015}
+  m_Layer: 5
+  m_Name: WeaponText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4869883981174191577
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2577809481049383987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2804490631936022230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -206, y: -74.796}
+  m_SizeDelta: {x: 385.6317, y: 42.3308}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5319894760741736876
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2577809481049383987}
+  m_CullTransparentMesh: 1
+--- !u!114 &4136774147459531426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2577809481049383987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: How the victim was killed?
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
+  m_sharedMaterial: {fileID: 1279033634469437068, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -100
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8252379343572125015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2577809481049383987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/WeaponText
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2590297872938493380
 GameObject:
   m_ObjectHideFlags: 0
@@ -3978,6 +4320,7 @@ GameObject:
   - component: {fileID: 2947380012972860473}
   - component: {fileID: 8968229425374399518}
   - component: {fileID: 1929744962461310748}
+  - component: {fileID: 2900717575631816150}
   m_Layer: 5
   m_Name: CluesTitle
   m_TagString: Untagged
@@ -4103,6 +4446,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2900717575631816150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3920707625556105484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/Title/Clues
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3932459734614577223
 GameObject:
   m_ObjectHideFlags: 0
@@ -4114,8 +4491,9 @@ GameObject:
   - component: {fileID: 7850930243863537887}
   - component: {fileID: 6076026119035382773}
   - component: {fileID: 7780799384224654304}
+  - component: {fileID: 8256367962394307520}
   m_Layer: 5
-  m_Name: Weapon
+  m_Name: WeaponTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4137,8 +4515,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -206, y: -61}
-  m_SizeDelta: {x: 385.6317, y: 69.923}
+  m_AnchoredPosition: {x: -206, y: -40.1}
+  m_SizeDelta: {x: 385.6317, y: 39.7442}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6076026119035382773
 CanvasRenderer:
@@ -4168,9 +4546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Weapon
-
-    How the victim was killed?'
+  m_text: Weapon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
   m_sharedMaterial: {fileID: 1279033634469437068, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
@@ -4241,6 +4617,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8256367962394307520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3932459734614577223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/Title/Weapon
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3939255458176655957
 GameObject:
   m_ObjectHideFlags: 0
@@ -4252,6 +4662,7 @@ GameObject:
   - component: {fileID: 3587500593427780822}
   - component: {fileID: 2944891581530682830}
   - component: {fileID: 1186851881377091330}
+  - component: {fileID: 5783073396385659506}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -4377,6 +4788,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &5783073396385659506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3939255458176655957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/Title/Suspects
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3977206227151463414
 GameObject:
   m_ObjectHideFlags: 0
@@ -4676,8 +5121,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5073556472913930150}
+  - {fileID: 5086701275850650538}
   - {fileID: 7850930243863537887}
+  - {fileID: 4869883981174191577}
   - {fileID: 2304825407106589261}
+  - {fileID: 7579439345292513592}
   m_Father: {fileID: 8092698797395167048}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5250,6 +5698,7 @@ GameObject:
   - component: {fileID: 8664973964211695159}
   - component: {fileID: 5079535077094432790}
   - component: {fileID: 1134856902736837761}
+  - component: {fileID: 6244701272792600269}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -5375,6 +5824,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6244701272792600269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568244466262492649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/Title/Info
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4678371919343446516
 GameObject:
   m_ObjectHideFlags: 0
@@ -5606,6 +6089,7 @@ GameObject:
   - component: {fileID: 1256361793343984623}
   - component: {fileID: 7808087065492913027}
   - component: {fileID: 4643269424997629050}
+  - component: {fileID: 8299763528431394121}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -5731,6 +6215,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8299763528431394121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4734854333342519361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/Title/Facts
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4765685753763133374
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,6 +6764,7 @@ GameObject:
   - component: {fileID: 7340229563411361397}
   - component: {fileID: 4725685125098068517}
   - component: {fileID: 7627909648106884065}
+  - component: {fileID: 3941741603615890663}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -6371,6 +6890,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3941741603615890663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412022164047634357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/Title/Leads
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5475491577377795132
 GameObject:
   m_ObjectHideFlags: 0
@@ -6899,7 +7452,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2065312977254295670}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.47753668}
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -7426,6 +7979,7 @@ GameObject:
   - component: {fileID: 7559492890538986431}
   - component: {fileID: 8873370333607551608}
   - component: {fileID: 746143194480971919}
+  - component: {fileID: 1695853289023763117}
   m_Layer: 5
   m_Name: Name
   m_TagString: Untagged
@@ -7551,6 +8105,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1695853289023763117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6424533832748569846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Language
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6492369134769231340
 GameObject:
   m_ObjectHideFlags: 0
@@ -7562,6 +8150,7 @@ GameObject:
   - component: {fileID: 8898387437158470519}
   - component: {fileID: 8040077829635583515}
   - component: {fileID: 711724461483302208}
+  - component: {fileID: 3013808293752780340}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -7687,6 +8276,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3013808293752780340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492369134769231340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/Title/Solution
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6510504943713763411
 GameObject:
   m_ObjectHideFlags: 0
@@ -8146,6 +8769,7 @@ GameObject:
   - component: {fileID: 5285505122071386667}
   - component: {fileID: 1890664028290417420}
   - component: {fileID: 2671904833498777089}
+  - component: {fileID: 7998210934070872015}
   m_Layer: 5
   m_Name: Desc
   m_TagString: Untagged
@@ -8272,6 +8896,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7998210934070872015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294866478610093460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Language
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7315962881864527361
 GameObject:
   m_ObjectHideFlags: 0
@@ -8484,6 +9142,177 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &7413358192526659870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5086701275850650538}
+  - component: {fileID: 5466921446032855059}
+  - component: {fileID: 8039923694021141947}
+  - component: {fileID: 8348975734090989163}
+  m_Layer: 5
+  m_Name: OpportunityText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5086701275850650538
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413358192526659870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2804490631936022230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 45.6}
+  m_SizeDelta: {x: 645.9438, y: 44.5957}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5466921446032855059
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413358192526659870}
+  m_CullTransparentMesh: 1
+--- !u!114 &8039923694021141947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413358192526659870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: What link the suspect to the crime scene?
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
+  m_sharedMaterial: {fileID: 1279033634469437068, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -100
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8348975734090989163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413358192526659870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/OpportunityText
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7523944392955558857
 GameObject:
   m_ObjectHideFlags: 0
@@ -8932,8 +9761,9 @@ GameObject:
   - component: {fileID: 5073556472913930150}
   - component: {fileID: 1674010987285240140}
   - component: {fileID: 2769920671433386323}
+  - component: {fileID: 8917601552264042921}
   m_Layer: 5
-  m_Name: Opportunity
+  m_Name: OpportunityTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8955,8 +9785,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 64}
-  m_SizeDelta: {x: 645.9438, y: 70.3484}
+  m_AnchoredPosition: {x: 0, y: 78.255974}
+  m_SizeDelta: {x: 645.9438, y: 41.8365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1674010987285240140
 CanvasRenderer:
@@ -8986,9 +9816,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Opportunity
-
-    What link the suspect to the crime scene?'
+  m_text: Opportunity
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
   m_sharedMaterial: {fileID: 1279033634469437068, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
@@ -9059,6 +9887,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8917601552264042921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8276162395606856704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/Title/Opportunity
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8282182826315544552
 GameObject:
   m_ObjectHideFlags: 0
@@ -9470,8 +10332,9 @@ GameObject:
   - component: {fileID: 2304825407106589261}
   - component: {fileID: 8854599576935911814}
   - component: {fileID: 4000811725462897126}
+  - component: {fileID: 7761412740002186974}
   m_Layer: 5
-  m_Name: Motive
+  m_Name: MotiveTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9493,8 +10356,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 198, y: -61}
-  m_SizeDelta: {x: 363.3813, y: 69.923}
+  m_AnchoredPosition: {x: 198, y: -40.56}
+  m_SizeDelta: {x: 363.3813, y: 38.8238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8854599576935911814
 CanvasRenderer:
@@ -9524,9 +10387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Motive
-
-    Why the victim was killed?'
+  m_text: Motive
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
   m_sharedMaterial: {fileID: 1279033634469437068, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
@@ -9597,6 +10458,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7761412740002186974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8566095384480918511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Notebook/Title/Motive
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8592118482916573024
 GameObject:
   m_ObjectHideFlags: 0

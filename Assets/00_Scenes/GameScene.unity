@@ -396,6 +396,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Bedroom
+      objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
@@ -522,6 +526,10 @@ PrefabInstance:
     - target: {fileID: 1316454134870475526, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Hall
       objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -2558,7 +2566,7 @@ PrefabInstance:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 186609264}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -2631,6 +2639,11 @@ PrefabInstance:
 --- !u!4 &186609263 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 186609262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &186609264 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 186609262}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &194247693
@@ -3071,6 +3084,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Office
+      objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
@@ -3354,6 +3371,10 @@ PrefabInstance:
     - target: {fileID: 1316454134870475526, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -9123,7 +9144,7 @@ PrefabInstance:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 741988993}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -9196,6 +9217,11 @@ PrefabInstance:
 --- !u!4 &741988992 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 741988991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &741988993 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 741988991}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &744933773
@@ -13242,7 +13268,7 @@ PrefabInstance:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1151050696}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -13317,6 +13343,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 1151050694}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1151050696 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 1151050694}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1161557350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13332,6 +13363,10 @@ PrefabInstance:
     - target: {fileID: 1316454134870475526, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Hall
       objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -13459,6 +13494,10 @@ PrefabInstance:
     - target: {fileID: 1316454134870475526, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Office
       objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -13964,6 +14003,10 @@ PrefabInstance:
     - target: {fileID: 1316454134870475526, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Outside
       objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -14584,7 +14627,7 @@ PrefabInstance:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1346943056}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -14657,6 +14700,11 @@ PrefabInstance:
 --- !u!4 &1346943055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 1346943054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1346943056 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 1346943054}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1352229528
@@ -15153,6 +15201,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Kitchen
+      objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
@@ -15268,7 +15320,7 @@ PrefabInstance:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1400978573}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -15341,6 +15393,11 @@ PrefabInstance:
 --- !u!4 &1400978572 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 1400978571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1400978573 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 1400978571}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1401309124
@@ -16638,6 +16695,10 @@ PrefabInstance:
     - target: {fileID: 1316454134870475526, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Hall
       objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -18566,7 +18627,7 @@ PrefabInstance:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1868936216}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -18641,6 +18702,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 1868936214}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1868936216 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 1868936214}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1873736063
 GameObject:
   m_ObjectHideFlags: 0
@@ -18695,7 +18761,7 @@ PrefabInstance:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1887116251}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -18768,6 +18834,11 @@ PrefabInstance:
 --- !u!4 &1887116250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 1887116249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1887116251 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 1887116249}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1892210958
@@ -18963,7 +19034,7 @@ PrefabInstance:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1932974105}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -19038,6 +19109,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 1932974103}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1932974105 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 1932974103}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1937093299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19106,7 +19182,7 @@ PrefabInstance:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2004690886}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -19171,6 +19247,11 @@ PrefabInstance:
 --- !u!4 &2004690885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 2004690884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2004690886 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 2004690884}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2016178918 stripped
@@ -20736,13 +20817,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogsCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 1968903620243056915, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
-      propertyPath: m_AnchorMax.y
+    - target: {fileID: 1458611695941280883, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1968903620243056915, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968903620243056915, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1968903620243056915, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_SizeDelta.x
@@ -20750,35 +20835,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1968903620243056915, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1968903620243056915, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -96.35035
       objectReference: {fileID: 0}
     - target: {fileID: 3721100380716790473, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: key
-      value: Menu_Continue
+      value: Language
       objectReference: {fileID: 0}
     - target: {fileID: 4108647699127469451, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4108647699127469451, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4108647699127469451, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 160
       objectReference: {fileID: 0}
     - target: {fileID: 4108647699127469451, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4108647699127469451, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -96.35035
       objectReference: {fileID: 0}
     - target: {fileID: 5182710557651393280, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
       propertyPath: m_Pivot.x
@@ -20872,6 +20957,18 @@ PrefabInstance:
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 6647486329064157895, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
+    - target: {fileID: 6937148247988418656, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6937148247988418656, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: e27b365480359d44c8bd33dc9a48bdf2, type: 3}
+    - target: {fileID: 6937148247988418656, guid: 85968a73c0a3a004483ddfed4cc727d8, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e27b365480359d44c8bd33dc9a48bdf2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20892,6 +20989,10 @@ PrefabInstance:
     - target: {fileID: 1316454134870475526, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992797752837249564, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
+      propertyPath: key
+      value: Game/Locations/Hall
       objectReference: {fileID: 0}
     - target: {fileID: 6304033308394255303, guid: b956eb4d0e2797448aa9b3a8c30db04a, type: 3}
       propertyPath: m_PresetInfoIsWorld

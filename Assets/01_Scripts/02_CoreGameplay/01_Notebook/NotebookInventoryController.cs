@@ -1,5 +1,6 @@
 using System;
 using ArthemyDev.ScriptsTools;
+using ArthemyDevelopment.Localization;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
@@ -17,8 +18,8 @@ public class NotebookInventoryController : MonoBehaviour
 
     [BoxGroup("Selected Clue")] [SerializeField] private GameObject ClueInfo; 
     [BoxGroup("Selected Clue")][SerializeField] private Image SelectedClueIcon; 
-    [BoxGroup("Selected Clue")][SerializeField] private TMP_Text SelectedClueName; 
-    [BoxGroup("Selected Clue")][SerializeField] private TMP_Text SelectedClueDesc;
+    [BoxGroup("Selected Clue")][SerializeField] private LocalizationObject SelectedClueName; 
+    [BoxGroup("Selected Clue")][SerializeField] private LocalizationObject SelectedClueDesc;
 
     [BoxGroup("Clue Combination")] [SerializeField] private InventorySlotController CombinationSlot_1;
     [BoxGroup("Clue Combination")] [SerializeField] private InventorySlotController CombinationSlot_2;
@@ -133,8 +134,8 @@ public class NotebookInventoryController : MonoBehaviour
     void SetSelectedClueData()
     {
         SelectedClueIcon.sprite = SelectedClue.clueIcon;
-        SelectedClueName.text = SelectedClue.clueName;
-        SelectedClueDesc.text = SelectedClue.clueDesc;
+        SelectedClueName.SetLocalizedObject(SelectedClue.clueName);
+        SelectedClueDesc.SetLocalizedObject(SelectedClue.clueDesc);
         ClueInfo.SetActive(true);
     }
 }

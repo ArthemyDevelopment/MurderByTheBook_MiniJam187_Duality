@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: UseWrongItem
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 0}
-  DialogText: 
+  DialogText: Language

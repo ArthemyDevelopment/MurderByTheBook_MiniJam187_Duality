@@ -1,3 +1,4 @@
+using ArthemyDevelopment.Localization;
 using Sirenix.OdinInspector;
 using TMPro;
 using Unity.VisualScripting;
@@ -10,14 +11,14 @@ public class InfoTextController : MonoBehaviour, IPointerEnterHandler
     [SerializeField] private GameObject AlertHighlight;
     private bool HighlightTurnOff;
 
-    [SerializeField] private TMP_Text textInfo;
+    [SerializeField] private LocalizationObject textInfo;
     [SerializeField] private bool HasIcon;
     [HideIf("@this.HasIcon==false")][SerializeField] private Image Icon;
 
 
     public void SetInfo(string text, Sprite icon)
     {
-        textInfo.text = text;
+        textInfo.SetLocalizedObject(text);
         if(Icon!=null)Icon.sprite = icon;
     }
     

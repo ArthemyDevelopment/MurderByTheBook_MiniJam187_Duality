@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -91,8 +92,9 @@ namespace ArthemyDevelopment.Localization
                 PlayerPrefs.DeleteKey("CustomEventTrigger"+triggerIndex);
 		}
 
-        public void SetLocalizedObject()
+        public void SetLocalizedObject(string? setKey=null)
         {
+            if (setKey != "" && setKey != null) key = setKey;
             if (key == "" && !multipleStrings && advanceOptions!=AdvanceOptions.SetLanguage)
                 return;
 

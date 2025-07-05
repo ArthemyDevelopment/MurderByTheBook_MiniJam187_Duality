@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2137264485427819163}
   - component: {fileID: 1057723355756473868}
   - component: {fileID: 4363635111459732807}
+  - component: {fileID: 4098427169749990911}
   m_Layer: 5
   m_Name: NotebookInfoTemplate
   m_TagString: Untagged
@@ -133,7 +134,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 4.212036, w: 0}
+  m_margin: {x: 3, y: 0, z: 3, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -152,9 +153,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AlertHighlight: {fileID: 8049756780647445283}
-  textInfo: {fileID: 1057723355756473868}
+  textInfo: {fileID: 4098427169749990911}
   HasIcon: 0
   Icon: {fileID: 0}
+--- !u!114 &4098427169749990911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3690098398492535843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Language
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8049756780647445283
 GameObject:
   m_ObjectHideFlags: 0

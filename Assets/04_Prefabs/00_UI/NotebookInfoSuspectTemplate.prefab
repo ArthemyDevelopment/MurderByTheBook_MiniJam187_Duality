@@ -317,6 +317,7 @@ GameObject:
   - component: {fileID: 5066289118724421244}
   - component: {fileID: 4619355293283597275}
   - component: {fileID: 942406100808651667}
+  - component: {fileID: 6605258173421398474}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -447,6 +448,40 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6605258173421398474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2923777997265588603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec234e199a763b43ae635ef329ef7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LM: {fileID: 0}
+  SetOnStart: 1
+  B_alreadyStart: 0
+  AffectedComponents: 0
+  key: Language
+  keys: []
+  useAdvanceOptions: 0
+  advanceOptions: 0
+  LocalizationIndex: 0
+  rememberConfiguration: 0
+  OnLanguageSelection:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerAutomatically: 0
+  triggerIndex: 0
+  OnCustomEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  multipleStrings: 0
+  ForCustomComponent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4354626464824465114
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AlertHighlight: {fileID: 8921249892289472202}
-  textInfo: {fileID: 942406100808651667}
+  textInfo: {fileID: 6605258173421398474}
   HasIcon: 1
   Icon: {fileID: 6139062221919449169}
 --- !u!222 &6148663923791903849

@@ -153,3 +153,18 @@ Cinematic/BadEndingTime/Text4;Maybe there wasn't really any foul play, maybe it 
 Cinematic/BadEndingTime/Text5;This murder will forever remain a mystery.;
 Cinematic/BadEndingTime/Title;Bad Ending;
 Cinematic/BadEndingTime/EndingNumber;Ending 1/4;
+Notebook/Title/Clues;Clues;
+Notebook/Title/Combine;Combine Clues;
+Notebook/Title/Info;Information;
+Notebook/Title/Solution;Solve Crime;
+Notebook/Title/Suspects;Suspects;
+Notebook/Title/Leads;Leads;
+Notebook/Title/Facts;Facts;
+Notebook/Title/Motive;Motive;
+Notebook/Title/Opportunity;Opportunity;
+Notebook/Title/Weapon;Weapon;
+Notebook/MotiveText;Why the victim was killed?;
+Notebook/OpportunityText;What link the suspect to the crime scene?;
+Notebook/WeaponText;How the victim was killed?;
+Game/Notification/ClueDesc;New clue description;
+Game/Notification/Info;New information;

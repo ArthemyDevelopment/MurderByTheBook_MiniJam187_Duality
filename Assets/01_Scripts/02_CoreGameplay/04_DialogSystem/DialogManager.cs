@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using ArthemyDev.ScriptsTools;
+using ArthemyDevelopment.Localization;
 using JetBrains.Annotations;
 using Sirenix.OdinInspector;
 using TMPro;
@@ -16,6 +17,7 @@ public class DialogManager : SingletonManager<DialogManager>
     [BoxGroup("Dialog properties")][SerializeField]private AudioSource TextSFX;
     [BoxGroup("Dialog properties")][SerializeField]private Image DialogChrIcon;
     [BoxGroup("Dialog properties")][SerializeField]private TMP_Text DialogTextArea;
+    [BoxGroup("Dialog properties")][SerializeField]private LocalizationObject DialogLocalization;
     [BoxGroup("Dialog properties/Sizes")][SerializeField]private float DialogTextAreaSize_Witness;
     [BoxGroup("Dialog properties/Sizes")][SerializeField]private float DialogTextAreaSize_Player;
     [BoxGroup("Dialog properties")][SerializeField]private float delayTextChar;
@@ -63,7 +65,7 @@ public class DialogManager : SingletonManager<DialogManager>
     private IEnumerator ShowText(string text)
     {
         isTextComplete = false;
-        DialogTextArea.text = text;
+        DialogLocalization.SetLocalizedObject(text);
         for (int i = 0; i < DialogTextArea.text.Length; i++)
         {
             DialogTextArea.maxVisibleCharacters = i + 1;
