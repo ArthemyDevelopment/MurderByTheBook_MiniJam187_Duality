@@ -11,6 +11,13 @@ public class SearchAction : BaseAction
     
     public override void TriggerAction()
     {
+        if (InteractionsManager.current.isItemSelected())
+        {
+            InteractionsManager.current.DeselectItem();
+            DialogManager.current.TriggerDialog(InvalidAction);
+            return;
+        }
+        
         if (SingleTrigger && alreadyTrigger) return;
         base.TriggerAction();
         OnSearch.Invoke();

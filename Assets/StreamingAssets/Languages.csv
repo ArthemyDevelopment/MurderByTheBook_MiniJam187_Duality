@@ -7,164 +7,181 @@ Menu/Options/Music;Music;Musica
 Menu/Credits/Title;Credits;Creditos
 Menu/Credits/Text;Created by\nMatÃ­as Mellado\n\n3D assets\nSyntyStudios - Polygon\nKenney Assets\nAleksandcazal DetectiveOffice\n\n2D assets\nKenney Assets\nBDragon1727\n\nMusic by Eric Matyas\nwww.soundimage.org;Creado por\nMatÃ­as Mellado\n\nAssets 3D\nSyntyStudios - Polygon\nKenney Assets\nAleksandcazal DetectiveOffice\n\nAssets 2D\nKenney Assets\nBDragon1727\n\nMusica por Eric Matyas\nwww.soundimage.org
 Menu/Exit;Exit;Volver
-Clues/BlankPaper/Name;Blank paper;
-Clues/BlankPaper/Desc;A weird blank paper found in the victim's room. Maybe someone knows what this is.;
-Clues/BloodiedKnife/Name;Bloody Knife;
-Clues/BloodiedKnife/Desc;A knife with blood in the tip.;
-Clues/BrokenGlass/Name;Broken Glasses;
-Clues/BrokenGlass/Desc;A couple of glasses broken, suggest the victim meet with someone.;
-Clues/BrokenStatuette/Name;Broken Statuette;
-Clues/BrokenStatuette/Desc;A statuette broken by a heavy impact.;
-Clues/FriendInSecurityCamera/Name;Security Camera footage;
-Clues/FriendInSecurityCamera/Desc;Footage from the security camera in the front door. The victim's best friend is shown entering and leaving the house shortly before midnight. He appears angry as he enters and frightened as he leaves.;
-Clues/GirlfriendsRaggedCloth/Name;Ragged Cloth ;
-Clues/GirlfriendsRaggedCloth/Desc;A piece of cloth from a victim girlfiend's dress. Found in the kitchens window. Suggest she got in avoiding the security cameras.;
-Clues/HuntingKnife/Name;Hunting Knife;
-Clues/HuntingKnife/Desc;My favourite hunting knife, never leave home without it.;
-Clues/IdentifiedPeoplePicture/Name;Photo;
-Clues/IdentifiedPeoplePicture/Desc;A photo from the victim's desk, it shows a lot of people, including the victim's girlfriend and best friend.;
-Clues/InvisibleInk/Name;Invisible Ink Revealer;
-Clues/InvisibleInk/Desc;A bottle with a liquid the victim use to reveal invisible ink.;
-Clues/Ligher/Name;Lighter;
-Clues/Ligher/Desc;My favourite lighter, never leave home without it.;
-Clues/MatchingBloodiedKnife/Name;Bloody Knife;
-Clues/MatchingBloodiedKnife/Desc;A knife with blood in the tip. Matches the wound in the victim's chest.;
-Clues/MatchingBrokenStatuette/Name;Broken Statuette;
-Clues/MatchingBrokenStatuette/Desc;A statuette broken by a heavy impact. Matches the wound in the victim's head.;
-Clues/NovelDraft/Name;Draft novel;
-Clues/NovelDraft/Desc;The draft of the victim's latest novel. Tells secrets disguised as fiction involving his girlfriend and best friend. Could ruin their lives.;
-Clues/PaperRevealed/Name;Paper with secret message;
-Clues/PaperRevealed/Desc;A piece of paper with invisible ink revealed, used to find the hidden compartment in the office walls.;
-Clues/Picture/Name;Photo;
-Clues/Picture/Desc;A photo from the victim's desk, it shows a lot of people but no way of identify them.;
-Clues/RaggedCloth/Name;Ragged Cloth ;
-Clues/RaggedCloth/Desc;A piece of red cloth ragged found in the kitchen. It's origin is unknown.;
-Clues/SecurityCamera/Name;Security Camera footage;
-Clues/SecurityCamera/Desc;Footage from the security camera in the front door. Shows a lot of people entering and leaving the house but no way of identifing them.;
-Clues/TornPaper/Name;Torn paper;
-Clues/TornPaper/Desc;A torn letter from the victim's friend. Looks like a heated argument. Can't read the content.;
-Clues/VictimDiary/Name;Victim's Diary;
-Clues/VictimDiary/Desc;Victim's diary, it's written in a strange way, can't decipher it but someone might know. A couple of pages where cut and it looks like it has some blood.;
-Clues/VictimDiaryCuts/Name;Victim's Diary;
-Clues/VictimDiaryCuts/Desc;Victim's diary, it's written in a strange way, can't decipher it but someone might know. A couple of pages where cut with the bloody knife.;
-Clues/VictimDiaryCutsRevealed/Name;Victim's Diary;
-Clues/VictimDiaryCutsRevealed/Desc;Victim's diary with lot of personal information, including detailed descriptions of his relatives and closed ones and the content of his next novel. A couple of pages where cut with the bloody knife.;
-Clues/VictimDiaryRevealed/Name;Victim's Diary;
-Clues/VictimDiaryRevealed/Desc;Victim's diary with lot of personal information, including detailed descriptions of his relatives and closed ones and the content of his next novel. A couple of pages where cut and it looks like it has some blood.;
-Clues/VictimsBody/Name;Victim's Body;
-Clues/VictimsBody/Desc;The body of the victim found in his office. I need to ask around about him.;
-Clues/VictimsBodyPostCop/Name;Victim's Body;
-Clues/VictimsBodyPostCop/Desc;The body of the victim found in his office. Has two deadly wounds, stabs in the chest and head trauma. Might help to identify the murder weapon.;
-Clues/WetBlankPaper/Name;Paper with invisible ink revealer;
-Clues/WetBlankPaper/Desc;Blank paper with invisible ink revealer all over it. Need someting more for the reaction.;
-Information/Suspects/BestFriend1;Victim's best friend, they know each other from collage and are co-founders of the publishing house that publishes the victim's books.\nLately had issues with the victim.;
-Information/Suspects/BestFriend2;Victim's best friend, they know each other from collage and are co-founders of the publishing house that publishes the victim's books.\nLately had issues with the victim because of his latest novel.;
-Information/Suspects/BestFriend3;Victim's best friend, they know each other from collage and are co-founders of the publishing house that publishes the victim's books.\nLately had issues with the victim because of his latest novel. There he tells how they plagiarised in the early years and founded the publishing house to avoid close inspection.;
-Information/Suspects/Caretaker1;Victim's house care taker, he insist he is not a butler. \n\nFound the victim in his office.;
-Information/Suspects/Caretaker2;Victim's house care taker, he insist he is not a butler. \n\nFound the victim in his office. Knows the victim's personal life very well.;
-Information/Suspects/Friend;Friend of the victim. \n\n\nHas an alibi.;
-Information/Suspects/Girlfriend1;Victim's girlfriend, they've been dating for a few years. \n\nLately had issues with the victim.;
-Information/Suspects/Girlfriend2;Victim's girlfriend, they've been dating for a few years. \n\nLately had issues with the victim because of his latest novel.;
-Information/Suspects/Girlfriend3;Victim's girlfriend, they've been dating for a few years. \n\nLately had issues with the victim because of his latest novel. There he tells about her real mariage and how she was stealing from her husband to finance the victim's novels.;
-Information/Suspects/Sister;Victim's sister. They hate each other since childhood.\n\n\nWas alegedly out of town up until this morning.;
-Information/Leads/BestFriendConcernDraft;The best friend was concern about the draft. Why?;
-Information/Leads/BloodyKnifeBedroom;There was a boodly knife hidden in the victim's nightstand. Who put it there?;
-Information/Leads/ClothWindow;Something or someone came through the kitchen window. They left a piece of cloth.;
-Information/Leads/EnteringFromWidow;Looks like someone could enter and leave through the windows without being detected by the cameras.;
-Information/Leads/FronDoorCameras;According to the sister, the house has cameras at the front door. Worth checking them.;
-Information/Leads/GirlfriendConcernDraft;The girlfriend was concern about the draft. Why?;
-Information/Leads/HiddenNightTable;There is something hidden in the nightstand, but I can't open the side with my hands.;
-Information/Leads/MissingKnife;There is a missing knife at the kitchen. Misplaced? Or stolen?;
-Information/Leads/MultipleWoundsBody;There are multiple wounds in the victim's body. Hard to tell the cause of death or identifying the murder weapon by looking it.;
-Information/Leads/VictimDraftMotive;Looks like the victim's new draft has something to do with his murder. But what? and why?;
-Information/Leads/VictimInvicibleInk;The victim was interested in ways of concealing texts. There might be something in his office.;
-Information/Leads/VictimInvicibleInkHeat;The victim was interested in invisible inks that are revealed by heath. There is a reagent in his office.;
-Information/Leads/VictimMeetSomeone;The victim meet with someone before he died. They fought and it seems he lost. With whom? And why they fought?;
-Information/Leads/VictimMemoryLost;The victim's memory was failing so he wrote important things on his diary. What valuable infomation can I find here?;
-Information/Leads/VictimNewDraft;The victim was working on a draft for his new novel Its missing at the moment. Where could it be? ;
-Information/Leads/VictimSecretHideout;It seems the victim has a secret hiding place in the walls of his office. Can't be found by it own.;
-Information/Leads/VictimOfficeDestroyed;The victim's office is a mess. Hard to tell if it's because of the fight or someone searched the place.;
-Information/Leads/VictimRoomSearched;Someone searched the victim's room. What were they looking for?;
-Information/Facts/BestfriendEnterDoor;The best friend enter through the main door before midnight. He arrived angry and leave scared a few minutes latter.;
-Information/Facts/BestfriendMotive;The vicitm plagiarised his firsts books. His best friend knew and help him get away with it creating a publishing house.;
-Information/Facts/BrokenStatuetteWound;The broken statuette match with the victim's head trauma. At some point the victim was hit in the head with the statuette.;
-Information/Facts/CauseOfDeath;Cause of death is head trauma or stab wounds in the chest. Both were pre-mortem and it's hard to tell which one was first.;
-Information/Facts/GirlfriendMotive1;The new draft reveals that the victim's girlfriend was married with a millionare while dating him.;
-Information/Facts/GirlfriendMotive2;The girlfirend was stealing money from her husband to finance the writing of books and the growth of the publishing house.;
-Information/Facts/GirlfriendWindow;Girlfriend enter the house through the kitchen window at some point in the night.;
-Information/Facts/KnifeWound;The bloody knife match the stab wounds in the victim's chest. At some point the victim was stabed using this knife.;
-Information/Facts/SuspectEnterDoor;Someone got in and out the property through the main door near the time of death.;
-Information/Facts/TimeOfDeath;Time of death is closed to midnight.;
-Information/Facts/VictimsDiary1;The victim's diary had pages cut with precision, but stains of blood where left behind.;
-Information/Facts/VictimsDiary2;The victim's diary has pages cut with the bloody knife.;
-Information/Facts/VictimNewBook1;The victim was working on a draft for his new book.;
-Information/Facts/VictimNewBook2;The victim was writing an autobiography disguised as fiction confessing secrets. The girlfriend and best friend didn't like it.;
-Information/Facts/VictimNewBook3;The victim was working on a draft for his new book. His best friend didn't like something about this draft.;
-Information/Facts/VictimNewBook4;The victim was working on his new book. The girlfriend and best friend didn't like something about this draft.;
-Dialogs/Witnesess/CareTaker/Default;There is little to no help in showing me that.;
-Dialogs/Witnesess/CareTaker/Paper;Lately the lord was obsesed with secret messages and invisible inks. There is a revealer in his office, it might help.;
-Dialogs/Witnesess/CareTaker/VictimBody;I never thought I would found the lord like that. So sad he couldn't finish his last work.;
-Dialogs/Witnesess/CareTaker/DiaryFirst;Oh thank you for showing me that first. The lord was having memory issues the past few years and wrote down everything he could. That diary has quite the sensitive information, be carefull with this information. Here is how to read it.;
-Dialogs/Witnesess/CareTaker/DiaryOther;I would have wished you had came to me first about this. It contanins a lot of sensitive information. This is how you can read some of it. The rest only the lord knew how.;
-Dialogs/Witnesess/Friend/Default;I don't know dude, I know nothing, still in shock.;
-Dialogs/Witnesess/Friend/Diary;Cool book, but have no idea how to read it.;
-Dialogs/Witnesess/Police/Default;Thanks for keeping me up with your investigation.;
-Dialogs/Witnesess/Police/Body;The time of death is near midnight. All the presents here have alleged alibis, still need to check them. The cause of death is hard to determine without proper examination, but is either the head trauma or the stab wounds in the chest. Both were pre-mortem.;
-Dialogs/Witnesess/Police/Diary;"Hmmm, interesting way of writing information, but I can't help you with that, maybe the butler ""no-butler"" can help you.";
-Dialogs/Witnesess/Sister/Default;I have no idea why you are showing me that.;
-Dialogs/Witnesess/Sister/Body;My poor brother, we didn't get along, but we respected each other. I hope the camera outside caught something.;
-Dialogs/Witnesess/Sister/Diary;My brother used to write a lot about his personal life. Don't know how to read it but last I knew he fought with his best friend, it had something to do with his new novel.;
-Game/TPTitle;Go to;
-Game/Locations/Office;Office;
-Game/Locations/Hall;Main Hall;
-Game/Locations/Kitchen;Kitchen;
-Game/Locations/Bedroom;Bedroom;
-Game/Locations/Outside;Outside;
-Cinematic/Intro/Text1;A famous novelist was found dead in his home.;
-Cinematic/Intro/Text2;The police suspect of a break-in gone wrong.;
-Cinematic/Intro/Text3;You didn't wanted to get involved but there is something fishy.;
-Cinematic/Intro/Text4;Two deadly wounds and nothing stolen.;
-Cinematic/Intro/Text5;What really happen that night?;
-Cinematic/GoodEnding/Text1;The police was conviced that this wasn't a break-in gone wrong. The girlfriend was behind this.;
-Cinematic/GoodEnding/Text2;They put an arrest warrant as soon as they could.;
-Cinematic/GoodEnding/Text3;She was arrested at the airport trying to flee the country.;
-Cinematic/GoodEnding/Text4;Her money can't get her away from this.;
-Cinematic/GoodEnding/Text5;Justice was made.;
-Cinematic/GoodEnding/Title;Good Ending;
-Cinematic/GoodEnding/EndingNumber;Ending 4/4;
-Cinematic/NeutralEnding/Text1;The police was conviced that this wasn't a break-in gone wrong. The girlfriend was behind this.;
-Cinematic/NeutralEnding/Text2;They put an arrest warrant as soon as they could.;
-Cinematic/NeutralEnding/Text3;Sadly she had already fled the country.;
-Cinematic/NeutralEnding/Text4;An international warrant was put, but with the money she has there is little to no hope of catching her.;
-Cinematic/NeutralEnding/Text5;You found the culprit, but was too late.\nNo justice was made. ;
-Cinematic/NeutralEnding/Title;Neutral Ending;
-Cinematic/NeutralEnding/EndingNumber;Ending 3/4;
-Cinematic/BadEndingFriend/Text1;The police was conviced that there was foul play.;
-Cinematic/BadEndingFriend/Text2;Your evidence pointed at the best friend.;
-Cinematic/BadEndingFriend/Text3;He was arrested at his house later that day.;
-Cinematic/BadEndingFriend/Text4;Was found not guilty due to lack of evidece.;
-Cinematic/BadEndingFriend/Text5;Did the justice failed? Or you got the wrong guy?;
-Cinematic/BadEndingFriend/Title;Bad Ending;
-Cinematic/BadEndingFriend/EndingNumber;Ending 2/4;
-Cinematic/BadEndingTime/Text1;You couldn't convice the police of any foul play being done.;
-Cinematic/BadEndingTime/Text2;They move in with the theory of the break-in gone wrong.;
-Cinematic/BadEndingTime/Text3;Due to lack of evidence or stolen objects they couldn't continue with the investigation.;
-Cinematic/BadEndingTime/Text4;Maybe there wasn't really any foul play, maybe it was a break-in.;
-Cinematic/BadEndingTime/Text5;This murder will forever remain a mystery.;
-Cinematic/BadEndingTime/Title;Bad Ending;
-Cinematic/BadEndingTime/EndingNumber;Ending 1/4;
-Notebook/Title/Clues;Clues;
-Notebook/Title/Combine;Combine Clues;
-Notebook/Title/Info;Information;
-Notebook/Title/Solution;Solve Crime;
-Notebook/Title/Suspects;Suspects;
-Notebook/Title/Leads;Leads;
-Notebook/Title/Facts;Facts;
-Notebook/Title/Motive;Motive;
-Notebook/Title/Opportunity;Opportunity;
-Notebook/Title/Weapon;Weapon;
-Notebook/MotiveText;Why the victim was killed?;
-Notebook/OpportunityText;What link the suspect to the crime scene?;
-Notebook/WeaponText;How the victim was killed?;
-Game/Notification/ClueDesc;New clue description;
-Game/Notification/Info;New information;
+Clues/BlankPaper/Name;Blank paper;Papel en blanco
+Clues/BlankPaper/Desc;A weird blank paper found in the victim's room. Maybe someone knows what this is.;Un extraño papel en blanco encontrado en la habitación de la víctima, quizás alguién sepa algo.
+Clues/BloodiedKnife/Name;Bloody Knife;Cuchillo ensangrentado
+Clues/BloodiedKnife/Desc;A knife with blood in the tip.;Cuchillo con sangre en su punta.
+Clues/BrokenGlass/Name;Broken Glasses;Vasos rotos
+Clues/BrokenGlass/Desc;A couple of glasses broken, suggest the victim meet with someone.;Un par de vasos rotos, sugiere que la víctima se reunió con alguién.
+Clues/BrokenStatuette/Name;Broken Statuette;Estatuilla rota
+Clues/BrokenStatuette/Desc;A statuette broken by a heavy impact.;Una estatuilla rota debido a un fuerte golpe.
+Clues/FriendInSecurityCamera/Name;Security Camera footage;Video de una cámara de seguridad
+Clues/FriendInSecurityCamera/Desc;Footage from the security camera in the front door. The victim's best friend is shown entering and leaving the house shortly before midnight. He appears angry as he enters and frightened as he leaves.;Video recuperado de la cámara de seguridad en la puerta principal. Se ve al mejor amigo de la víctima entrando al lugar y saliendo cerca de la medianoche. Aparenta estar enojado al entrar y temeoros al salir.
+Clues/GirlfriendsRaggedCloth/Name;Ragged Cloth ;Pedazo de tela rasgada
+Clues/GirlfriendsRaggedCloth/Desc;A piece of cloth from a victim girlfiend's dress. Found in the kitchens window. Suggest she got in avoiding the security cameras.;Un pedazo del vestido de la pareja de la víctima. Encontrado en la ventana de la cocina. Siguiere que entró evitando la cámara de seguridad.
+Clues/HuntingKnife/Name;Hunting Knife;Cuchillo de caza
+Clues/HuntingKnife/Desc;My favourite hunting knife, never leave home without it.;Mi cuchillo favorito, nunca salgo de casa sin el.
+Clues/IdentifiedPeoplePicture/Name;Photo;Fotografía
+Clues/IdentifiedPeoplePicture/Desc;A photo from the victim's desk, it shows a lot of people, including the victim's girlfriend and best friend.;Una fotografía que se cayó del escritorio de la víctima. Muestra a muchas personas, incluidos su pareja y su mejor amigo.
+Clues/InvisibleInk/Name;Invisible Ink Revealer;Revelador de tinta invisible
+Clues/InvisibleInk/Desc;A bottle with a liquid the victim use to reveal invisible ink.;Una botellita con un liquido para revelar tinta invisible.
+Clues/Ligher/Name;Lighter;Encendedor
+Clues/Ligher/Desc;My favourite lighter, never leave home without it.;My encendedor favorito, nunca salgo de casa sin el.
+Clues/MatchingBloodiedKnife/Name;Bloody Knife;Cuchillo ensangrentado
+Clues/MatchingBloodiedKnife/Desc;A knife with blood in the tip. Matches the wound in the victim's chest.;Cuchillo con sangre en su punta. Coincide con la herida en el pecho de la víctima.
+Clues/MatchingBrokenStatuette/Name;Broken Statuette;Estatuilla rota
+Clues/MatchingBrokenStatuette/Desc;A statuette broken by a heavy impact. Matches the wound in the victim's head.;Una estatuilla rota debido a un fuerte golpe. Coincide con la herida en la cabeza de la víctima.
+Clues/NovelDraft/Name;Draft novel;Borrador de novela
+Clues/NovelDraft/Desc;The draft of the victim's latest novel. Tells secrets disguised as fiction involving his girlfriend and best friend. Could ruin their lives.;El borrador de la próxima novela de la víctima. Cuenta secretos personales disfrazdos de ficción involucrando a su pareja y mejor amigo. Podría arruinar sus vidas.
+Clues/PaperRevealed/Name;Paper with secret message;Papel con mensaje secreto
+Clues/PaperRevealed/Desc;A piece of paper with invisible ink revealed, used to find the hidden compartment in the office walls.;Un papel con un mensaje invisible revelado, se necesita para encontrar un compartimiento oculto en la pared de la oficina.
+Clues/Picture/Name;Photo;Fotografía
+Clues/Picture/Desc;A photo from the victim's desk, it shows a lot of people but no way of identify them.;Una fotografía que se cayó del escritorio de la víctima. Muestra a muchas personas, pero es imposible identificarlas sin más información.
+Clues/RaggedCloth/Name;Ragged Cloth ;Pedazo de tela rasgada
+Clues/RaggedCloth/Desc;A piece of red cloth ragged found in the kitchen. It's origin is unknown.;Un pedazo de tela rasgada encontrada en la ventana de la cocina, se desconoce su origen.
+Clues/SecurityCamera/Name;Security Camera footage;Video de una cámara de seguridad
+Clues/SecurityCamera/Desc;Footage from the security camera in the front door. Shows a lot of people entering and leaving the house but no way of identifing them.;Video recuperado de la cámara de seguridad en la puerta principal. Se ve gente entrando y saliendo todo el día, imposible identificar a las personas sin más información.
+Clues/TornPaper/Name;Torn paper;Papel destrozado
+Clues/TornPaper/Desc;A torn letter from the victim's friend. Looks like a heated argument. Can't read the content.;Pedazos de una carta del mejor amigo de la víctima. No se puede leer su contenido pero pareciera ser una discución acalorada.
+Clues/VictimDiary/Name;Victim's Diary;Diario de la víctima
+Clues/VictimDiary/Desc;Victim's diary, it's written in a strange way, can't decipher it but someone might know. A couple of pages where cut and it looks like it has some blood.;Diario de la víctima con un estilo de escritura extraña, no puedo decifrar su contenido pero alguién podría saber como leerlo. Un par de páginas parecer haber sido cortadas y hay rastros de sangre.
+Clues/VictimDiaryCuts/Name;Victim's Diary;Diario de la víctima
+Clues/VictimDiaryCuts/Desc;Victim's diary, it's written in a strange way, can't decipher it but someone might know. A couple of pages where cut with the bloody knife.;Diario de la víctima con un estilo de escritura extraña, no puedo decifrar su contenido pero alguién podría saber como leerlo. Un par de páginas fueron cortadas con el cuchillo ensangrentado.
+Clues/VictimDiaryCutsRevealed/Name;Victim's Diary;Diario de la víctima
+Clues/VictimDiaryCutsRevealed/Desc;Victim's diary with lot of personal information, including detailed descriptions of his relatives and closed ones and the content of his next novel. A couple of pages where cut with the bloody knife.;Diario de la víctima con mucha información personal, incluidas descripciones detalladas de todos sus conocidos y el contenido de su próxima novela. Un par de páginas fueron cortadas con el cuchillo ensangrentado.
+Clues/VictimDiaryRevealed/Name;Victim's Diary;Diario de la víctima
+Clues/VictimDiaryRevealed/Desc;Victim's diary with lot of personal information, including detailed descriptions of his relatives and closed ones and the content of his next novel. A couple of pages where cut and it looks like it has some blood.;Diario de la víctima con mucha información personal, incluidas descripciones detalladas de todos sus conocidos y el contenido de su próxima novela. Un par de páginas parecer haber sido cortadas y hay rastros de sangre.
+Clues/VictimsBody/Name;Victim's Body;Cuerpo de la víctima
+Clues/VictimsBody/Desc;The body of the victim found in his office. I need to ask around about him.;El cuerpo de la víctima encontrado en su oficina. Necesitare preguntar sobre él.
+Clues/VictimsBodyPostCop/Name;Victim's Body;Cuerpo de la víctima
+Clues/VictimsBodyPostCop/Desc;The body of the victim found in his office. Has two deadly wounds, stabs in the chest and head trauma. Might help to identify the murder weapon.;El cuerpo de la víctima encontrado en su oficina. Tiene dos heridas letales, apuñaladas en el pecho y contuciones en la cabeza. Podría ayudar a identificar el arma homicida.
+Clues/WetBlankPaper/Name;Paper with invisible ink revealer;Papel con revelador de tinta invisible
+Clues/WetBlankPaper/Desc;Blank paper with invisible ink revealer all over it. Need someting more for the reaction.;Papel en blanco con el revelador de tinta invisible aplicado. Hace falto algo más para iniciar la reacción.
+Information/Suspects/BestFriend1;Victim's best friend, they know each other from collage and are co-founders of the publishing house that publishes the victim's books.\nLately had issues with the victim.;Mejor amigo de la víctima, se conocen desde la unviersidad y son co-fundadores de la editorial que publicaba los libros de la víctima.\nÚltimamente estaba peleado con la víctima
+Information/Suspects/BestFriend2;Victim's best friend, they know each other from collage and are co-founders of the publishing house that publishes the victim's books.\nLately had issues with the victim because of his latest novel.;Mejor amigo de la víctima, se conocen desde la unviersidad y son co-fundadores de la editorial que publicaba los libros de la víctima.\nTenía desacuerdos con la víctima por su próxima novela.
+Information/Suspects/BestFriend3;Victim's best friend, they know each other from collage and are co-founders of the publishing house that publishes the victim's books.\nLately had issues with the victim because of his latest novel. There he tells how they plagiarised in the early years and founded the publishing house to avoid close inspection.;Mejor amigo de la víctima, se conocen desde la unviersidad y son co-fundadores de la editorial que publicaba los libros de la víctima.\nTenía desacuerdos con la víctima por su próxima novela. En ella confesaba haber hecho plágio en sus primeros años y cómo fundaron la editorial para ocultaro y pasar desapercibidos.
+Information/Suspects/Caretaker1;Victim's house care taker, he insist he is not a butler. \n\nFound the victim in his office.;El cuidador de la vasa de la víctima, insiste que no es un mayordomo\n\nEncontro el cuerpo de la víctima en su oficina.
+Information/Suspects/Caretaker2;Victim's house care taker, he insist he is not a butler. \n\nFound the victim in his office. Knows the victim's personal life very well.;El cuidador de la vasa de la víctima, insiste que no es un mayordomo\n\nEncontro el cuerpo de la víctima en su oficina. Conoce muy bien la vida privada de la víctima.
+Information/Suspects/Friend;Friend of the victim. \n\n\nHas an alibi.;Amigo de la víctima.\n\n\nTiene una coartada.
+Information/Suspects/Girlfriend1;Victim's girlfriend, they've been dating for a few years. \n\nLately had issues with the victim.;Pareja de la víctima, han estado saliendo por unos cuantos años.\n\nÚltimamente estaba peleada con la víctima.
+Information/Suspects/Girlfriend2;Victim's girlfriend, they've been dating for a few years. \n\nLately had issues with the victim because of his latest novel.;Pareja de la víctima, han estado saliendo por unos cuantos años.\n\nTenía desacuerdos con la víctima por su próxima novela.
+Information/Suspects/Girlfriend3;Victim's girlfriend, they've been dating for a few years. \n\nLately had issues with the victim because of his latest novel. There he tells about her real mariage and how she was stealing from her husband to finance the victim's novels.;Pareja de la víctima, han estado saliendo por unos cuantos años.\n\nTenía desacuerdos con la víctima por su próxima novela. Ahí cuenta cómo su relación era una infidelidad y cómo ella robaba de las empresas de su marido para financiar los libros de la víctima.
+Information/Suspects/Sister;Victim's sister. They hate each other since childhood.\n\n\nWas alegedly out of town up until this morning.;Hermana de la víctima. Tienen una mala relación desde la infancia.\n\nAparentemente estaba fuera da la ciudad hasta esta mañana.
+Information/Leads/BestFriendConcernDraft;The best friend was concern about the draft. Why?;El mejor amigo tenía problemas con el nuevo borrador ¿Por qué?
+Information/Leads/BloodyKnifeBedroom;There was a boodly knife hidden in the victim's nightstand. Who put it there?;Había un cuchillo ensangrentado oculto en el velador de la víctima. ¿Quién lo escondió?
+Information/Leads/ClothWindow;Something or someone came through the kitchen window. They left a piece of cloth.;Algo o alguién cruzo por la ventana de la cocina, quedo un pedazo de tela atascado.
+Information/Leads/EnteringFromWidow;Looks like someone could enter and leave through the windows without being detected by the cameras.;Al parecer se puede entrar y salir de la propiedad por las ventanas, evitando ser visto por las cámaras de seguridad.
+Information/Leads/FronDoorCameras;According to the sister, the house has cameras at the front door. Worth checking them.;Según la hermana hay una cámara de seguridad en la entrada, vale la pena darles un vistazo.
+Information/Leads/GirlfriendConcernDraft;The girlfriend was concern about the draft. Why?;La pareja tenía problemas con el nuevo borrador ¿Por qué?
+Information/Leads/HiddenNightTable;There is something hidden in the nightstand, but I can't open the side with my hands.;Hay algo escondido en el velador, pero no puedo abrir el costado con mis manos.
+Information/Leads/MissingKnife;There is a missing knife at the kitchen. Misplaced? Or stolen?;Falta un cuchillo en la cocina. ¿Se perdió o fue robado?
+Information/Leads/MultipleWoundsBody;There are multiple wounds in the victim's body. Hard to tell the cause of death or identifying the murder weapon by looking it.;Hay multiples heridas letales en el cuerpo de la víctima. Difícil establecer la causa de la muerte o identificar cuál fue el arma homicida.
+Information/Leads/VictimDraftMotive;Looks like the victim's new draft has something to do with his murder. But what? and why?;Al parecer el borrador de la nueva novela de la víctima juega un papel en este asesinato. ¿Pero cuál y por qué?
+Information/Leads/VictimInvicibleInk;The victim was interested in ways of concealing texts. There might be something in his office.;La víctima estaba interesada en metodos de ocultar textos e información, podría haber algo al respecto en su oficina.
+Information/Leads/VictimInvicibleInkHeat;The victim was interested in invisible inks that are revealed by heath. There is a reagent in his office.;La víctima estaba interesada en tintas invisibles que se revelan con calor. Podría haber un reactivo en su oficina.
+Information/Leads/VictimMeetSomeone;The victim meet with someone before he died. They fought and it seems he lost. With whom? And why they fought?;La víctima se reunió con alguién antes de morir. Pelearon y al parecer la víctima perdió. ¿Con quién y qué causó la pelea?
+Information/Leads/VictimMemoryLost;The victim's memory was failing so he wrote important things on his diary. What valuable infomation can I find here?;La víctima tenía problemas de memoria, por lo que escribía toda información que consideraba importante en su diario. ¿Qué clase de información valiosa podría encontrar aquí?
+Information/Leads/VictimNewDraft;The victim was working on a draft for his new novel. Its missing at the moment. Where could it be? ;La víctima estaba trabajando en un borrador para su nueva novela pero actualmente se desconoce su paradero. ¿Dónde podría estar?
+Information/Leads/VictimSecretHideout;It seems the victim has a secret hiding place in the walls of his office. Can't be found by it own.;Pareciera ser que la víctima tiene un escondite secreto en su oficina. Pero no puedo encontrarlo por mi cuenta.
+Information/Leads/VictimOfficeDestroyed;The victim's office is a mess. Hard to tell if it's because of the fight or someone searched the place.;La oficina de la víctima es un desastre. Difícil determinar si fue producto de la pelea o alguién rebuscó en el lugar.
+Information/Leads/VictimRoomSearched;Someone searched the victim's room. What were they looking for?;Alguién rebuscó en la habitación de la víctima. ¿Qué estarían buscando?
+Information/Facts/BestfriendEnterDoor;The best friend enter through the main door before midnight. He arrived angry and leave scared a few minutes latter.;El mejor amigo entró por la puerta principal justo antes de la media noche. Se veía enojado al entrar y asustado al salir.
+Information/Facts/BestfriendMotive;The vicitm plagiarised his firsts books. His best friend knew and help him get away with it creating a publishing house.;La víctima plagió sus primeros libros. Su mejor amigo sabía de ello y fundaron la editorial para salirse con la suya.
+Information/Facts/BrokenStatuetteWound;The broken statuette match with the victim's head trauma. At some point the victim was hit in the head with the statuette.;La estatuilla rota coincide con la herida en la cabeza de la víctima. En algún punto de la noche alguién golpeo a la víctima con ella.
+Information/Facts/CauseOfDeath;Cause of death is head trauma or stab wounds in the chest. Both were pre-mortem and it's hard to tell which one was first.;La causa de muerte pudo ser las apuñaladas en el pecho o el golpe en la cabeza. Ambos fueron causados pre mortem y es difícil determinar cuál fue primero.
+Information/Facts/GirlfriendMotive1;The new draft reveals that the victim's girlfriend was married with a millionare while dating him.;La próxima novela revela que la pareja de la victima estaba casada con un empresario millonario.
+Information/Facts/GirlfriendMotive2;The girlfirend was stealing money from her husband to finance the writing of books and the growth of the publishing house.;La pareja de la víctima robaba dinero de su marido para financiar los libros de la víctima y la expansión de su editorial.
+Information/Facts/GirlfriendWindow;Girlfriend enter the house through the kitchen window at some point in the night.;La pareja entro por la ventana de la cocina en algún punto de la noche. 
+Information/Facts/KnifeWound;The bloody knife match the stab wounds in the victim's chest. At some point the victim was stabed using this knife.;El cuchillo ensangrentando coincide con las heridas en el pecho de la víctima. En algún punto de la noche fue apuñalado con este cuchillo.
+Information/Facts/SuspectEnterDoor;Someone got in and out the property through the main door near the time of death.;Alguién entro y salio de la propiedad por la puerta principal cerca de la hora de la muerte.
+Information/Facts/TimeOfDeath;Time of death is closed to midnight.;La hora de la muerte es cerca a la media noche.
+Information/Facts/VictimsDiary1;The victim's diary had pages cut with precision, but stains of blood where left behind.;Algunas páginas del diario de la víctima fueron cortadas con precisión, pero quedaron rastros de sangre.
+Information/Facts/VictimsDiary2;The victim's diary has pages cut with the bloody knife.;Cortaron páginas del diario de la victima con el cuchillo ensangrentado.
+Information/Facts/VictimNewBook1;The victim was working on a draft for his new book.;La víctima trabajaba en un borrador para su nueva novela.
+Information/Facts/VictimNewBook2;The victim was writing an autobiography disguised as fiction confessing secrets. The girlfriend and best friend didn't like it.;La víctima trabajaba en una auto biografía disfrazada de ficción confesando secretos. Su pareja y mejor amigo estaban en contra 
+Information/Facts/VictimNewBook3;The victim was working on a draft for his new book. His best friend didn't like something about this draft.;La víctima trabajaba en un borrador para su nueva novela. Su mejor amigo no estaba feliz con algo de su contenido.
+Information/Facts/VictimNewBook4;The victim was working on his new book. The girlfriend and best friend didn't like something about this draft.;La víctima trabajaba en un borrador para su nueva novela. Su pareja no estaba feliz con algo de su contenido.
+Dialogs/Witnesess/CareTaker/Default;There is little to no help in showing me that.;No veo lo productivo en mostrarme eso.
+Dialogs/Witnesess/CareTaker/Paper;Lately the lord was obsesed with secret messages and invisible inks. There is a revealer in his office, it might help.;Últimamente el señor estaba obsesionado con mensajes secretos. Hay un reactivo en su oficina, quizás pueda serle de utilidad.
+Dialogs/Witnesess/CareTaker/VictimBody;I never thought I would found the lord like that. So sad he couldn't finish his last work.;Nunca imaginé que encontraría al señor así. Me apena que dejara su última obra inacabada.
+Dialogs/Witnesess/CareTaker/DiaryFirst;Oh thank you for showing me that first. The lord was having memory issues the past few years and wrote down everything he could. That diary has quite the sensitive information, be carefull with this information. Here is how to read it.;Oh, agradezco mucho que primero me mostrara esto a mi. El señor estaba teniendo problemas de memoria los últimos años así que escribía todo lo que consideraba importante. Hay mucha información sensible aquí, deje que le muestre como decifrarlo.
+Dialogs/Witnesess/CareTaker/DiaryOther;I would have wished you had came to me first about this. It contanins a lot of sensitive information. This is how you can read some of it. The rest only the lord knew how.;Habría preferido que me mostrara esto a mi primero. Contiene mucha información sensible. Le puedo mostrar como decifrar parte de la información, el resto solo el señor sabía cómo.
+Dialogs/Witnesess/Friend/Default;I don't know dude, I know nothing, still in shock.;No se nada yo, aún estoy en shock.
+Dialogs/Witnesess/Friend/Diary;Cool book, but have no idea how to read it.;Qué interesante libro, pero ni idea cómo leerlo.
+Dialogs/Witnesess/Police/Default;Thanks for keeping me up with your investigation.;Gracias por mantenerme al tanto de su investigación.
+Dialogs/Witnesess/Police/Body;The time of death is near midnight. All the presents here have alleged alibis, still need to check them. The cause of death is hard to determine without proper examination, but is either the head trauma or the stab wounds in the chest. Both were pre-mortem.;La hora de la muerte es cerca a la media noche. Todos los presentes tienes presuntas coartadas pendientes de verificar. Es difícil determinar la causa de la muerta sin una examinación más profunda, las heridas en el pecho y cabeza son letales y pre-mortem.
+Dialogs/Witnesess/Police/Diary;"Hmm, interesting way of writing information, but I can't help you with that, maybe the butler ""no-butler"" can help you.";"Hmm, interesante forma de escribir información. Lamentablemente no le puedo ayudar, quizas en mayordomo ""no soy mayordomo"" pueda darle una mano."
+Dialogs/Witnesess/Sister/Default;I have no idea why you are showing me that.;Ni idea porque me muestras eso.
+Dialogs/Witnesess/Sister/Body;My poor brother, we didn't get along, but we respected each other. I hope the camera outside caught something.;Pobre hermanito, nunca nos llevamos bien, pero nos respetabamos. Espero que la cámara de la entrada captara algo.
+Dialogs/Witnesess/Sister/Diary;My brother used to write a lot about his personal life. Don't know how to read it but last I knew he fought with his best friend, it had something to do with his new novel.;Mi hermano solía escribir mucho sobre su vida personal. Ni idea cómo leerlo, pero lo último que escuche es que tuvo una fuerte discución con su mejor amigo a causa de su próxima novela.
+Game/TPTitle;Go to;Ir a
+Game/Locations/Office;Office;Oficina
+Game/Locations/Hall;Main Hall;Entrada principal
+Game/Locations/Kitchen;Kitchen;Cocina
+Game/Locations/Bedroom;Bedroom;Habitación
+Game/Locations/Outside;Outside;Exterior
+Cinematic/Intro/Text1;A famous novelist was found dead in his home.;Un famoso novelista fue encontrado muerto en su hogar.
+Cinematic/Intro/Text2;The police suspect of a break-in gone wrong.;La policia sospecha de un robo que salió mal.
+Cinematic/Intro/Text3;You didn't wanted to get involved but there is something fishy.;No te querías involucrar, pero hay algo que no cuadra.
+Cinematic/Intro/Text4;Two deadly wounds and nothing stolen.;Dos heridas mortales, nada robado.
+Cinematic/Intro/Text5;What really happen that night?;¿Qué secretos se ocultan en esa noche?
+Cinematic/GoodEnding/Text1;The police was conviced that this wasn't a break-in gone wrong. The girlfriend was behind this.;La policia se convenció de que no fue un simple robo. La pareja estaba detrás de todo.
+Cinematic/GoodEnding/Text2;They put an arrest warrant as soon as they could.;Pusieron una orden de arresto cuanto antes.
+Cinematic/GoodEnding/Text3;She was arrested at the airport trying to flee the country.;La atraparon en el aeropuerto intentando escapar del país.
+Cinematic/GoodEnding/Text4;Her money can't get her away from this.;Su dinero no bastara para salirse con la suya.
+Cinematic/GoodEnding/Text5;Justice was made.;Se ha hecho justicia.
+Cinematic/GoodEnding/Title;Good Ending;Final bueno
+Cinematic/GoodEnding/EndingNumber;Ending 4/4;Final 4/4
+Cinematic/NeutralEnding/Text1;The police was conviced that this wasn't a break-in gone wrong. The girlfriend was behind this.;La policia se convenció de que no fue un simple robo. La pareja estaba detrás de todo.
+Cinematic/NeutralEnding/Text2;They put an arrest warrant as soon as they could.;Pusieron una orden de arresto cuanto antes.
+Cinematic/NeutralEnding/Text3;Sadly she had already fled the country.;Lametablemente alcanzó a escapar del país.
+Cinematic/NeutralEnding/Text4;An international warrant was put, but with the money she has there is little to no hope of catching her.;Pusieron una orden de arresto internacional, pero dados los recursos que posee hay poca esperanza de atraparla.
+Cinematic/NeutralEnding/Text5;You found the culprit, but was too late.\nNo justice was made. ;Descubriste a la culpable, pero fue demasiado tarde.\nNo se pudo hacer justicia.
+Cinematic/NeutralEnding/Title;Neutral Ending;Final neutral
+Cinematic/NeutralEnding/EndingNumber;Ending 3/4;Final 3/4
+Cinematic/BadEndingFriend/Text1;The police was conviced that there was foul play.;Convenciste a la policia que había más detrás de la muerte del escritor.
+Cinematic/BadEndingFriend/Text2;Your evidence pointed at the best friend.;La evidencia aputaba al mejor amigo.
+Cinematic/BadEndingFriend/Text3;He was arrested at his house later that day.;Fue arrestado en su casa más tarde ese día.
+Cinematic/BadEndingFriend/Text4;Was found not guilty due to lack of evidece.;Pero fue encontrado inocente debido a falta de evidencia contundente.
+Cinematic/BadEndingFriend/Text5;Did the justice failed? Or you got the wrong guy?;¿Falló la justicia o el verdadero culpable sigue suelto?
+Cinematic/BadEndingFriend/Title;Bad Ending;Final malo
+Cinematic/BadEndingFriend/EndingNumber;Ending 2/4;Final 2/4
+Cinematic/BadEndingTime/Text1;You couldn't convice the police of any foul play being done.;No pudiste convecer a la policia de que hubiera algo más detrás del asesinato.
+Cinematic/BadEndingTime/Text2;They move in with the theory of the break-in gone wrong.;Se quedarón con la teoría del robo que salió mal.
+Cinematic/BadEndingTime/Text3;Due to lack of evidence or stolen objects they couldn't continue with the investigation.;Debído a la falta de evidencia u objetos robados no pudieron continuar con la investigación.
+Cinematic/BadEndingTime/Text4;Maybe there wasn't really any foul play, maybe it was a break-in.;Quizás realmente no había ningun misterio, quizás si fue un simple robo.
+Cinematic/BadEndingTime/Text5;This murder will forever remain a mystery.;Este asesinato será por siempre un misterio.
+Cinematic/BadEndingTime/Title;Bad Ending;Final malo
+Cinematic/BadEndingTime/EndingNumber;Ending 1/4;Final 1/4
+Notebook/Title/Clues;Clues;Pistas
+Notebook/Title/Combine;Combine Clues;Combinar pistas
+Notebook/Title/Info;Information;Información
+Notebook/Title/Solution;Solve Crime;Resolver Crimen
+Notebook/Title/Suspects;Suspects;Sospechosos
+Notebook/Title/Leads;Leads;Indicios
+Notebook/Title/Facts;Facts;Hechos
+Notebook/Title/Motive;Motive;Motivo
+Notebook/Title/Opportunity;Opportunity;Oportunidad
+Notebook/Title/Weapon;Weapon;Arma
+Notebook/MotiveText;Why the victim was killed?;¿Por qué fue asesinada?
+Notebook/OpportunityText;What link the suspect to the crime scene?;¿Qué vincula al sospechoso al crimen?
+Notebook/WeaponText;How the victim was killed?;¿Cómo fue asesinado?
+Game/Notification/ClueDesc;New clue description;Descripción añadida
+Game/Notification/Info;New information;Nueva información
+Dialogs/Player/Use/Wrong;There is no point in that.;No tiene sentido hacer eso
+Dialogs/Player/Use/KnifeNightable;There it goes, my knife did the trick.\nUh, there is a knife with blood in here.;Ahora sí, con mi cuchillo es más fácil.\nEh, hay un cuchillo con sangre aquí dentro.
+Dialogs/Player/Use/BlankPaper;There it goes, interesing way of conceling a compartmen in the wall. Looks like I found the missing draft, the victim sure wanted to keep it hidden.;Interesante forma de ocultar un compartimiento en la pared. Parece ser que aquí estuvo el borrador perdido todo este tiempo. La víctima definitivamente no quería que nadie lo encontrar.
+Dialogs/Player/Grab/VictimBody;Poor lad, whoever did this, they sure had a grudge against you. I better ask around about you, the police officer must have the preliminar autopsy report.;Pobre sujeto, quienfuera que haya sido, definitivamente tenia algo personal contra ti. Mejor pregunto a los testigos en la entrada que sabían de ti, la oficial ya debería tener el reporte preliminar de la autopsia.
+Dialogs/Player/Grab/Diary;Seems like a personal diary. Uh, what kind of way of writing is this, looks like its coded in some way, maybe someone knows something about this.;Pareciera ser el diario personal de la víctima. ¿Pero qué? ¿Qué clase de forma extraña de escribir es esta? Debe ser algun tipo de código, quizás alguién cercano sepa como decifrarlo.
+Dialogs/Player/Grab/BlankPaper;What a weird paper, it has nothing written on it, but why keep it here?;¿Qué clase de papel es este? No tiene nada escrito pero… ¿Para qué tenerlo aquí entonces?
+Dialogs/Player/Grab/TornPaper;Looks like the remains of some sort of letter, it's from the best friend and they are not exactly the nicest words.;Pareciera ser algun tipo de carta o algo similar, es del mejor amigo. No se puede rescatar el contenido, pero no le escribio para darle saludos precisamente.
+Dialogs/Player/Grab/Photo;This photo must have fallen in the commotion,they must be important fellows to the victim for him to have this on their desk.;Esta foto debe haberse caido en la conmoción. Las personas aquí deben de haber sido cercanas a la víctima como para estar en su escritorio.
+Dialogs/Player/Grab/Statuette;The remains of what must have been some stuatuette. Whatever broke it, was a heavy hit.;Los restos de lo que pareciera haber sido una estatuilla. Sea lo que sea que la haya roto, fue un golpe muy duro.
+Dialogs/Player/Grab/Glass;Broken pieces for what it looks were two glasses, the victim meet with someone here and they fought. Can't say the victim won the fight thats for sure.;Restos de lo que parecieran ser dos vasos de vidrio, eso quiere decir que la víctima se reunió con alguién aquí y pelearon. No puedo decir que la víctima haya ganado esa pelea precisamente por lo que se ve.
+Dialogs/Player/Search/WindowOffice;The window was open, leads to the yard and there is no safety measure to prevent an intruder. Anyone could get in without getting notice.;La ventana estaba abierta, da direto al patio y no parecieran haber medidas de seguridad que eviten alguien venga o vaya a la calle. Cualquier persona podría entrar a la casa sin ser visto.
+Dialogs/Player/Search/WindowKitchen;Look what we have here, something or someone tried to get in or out throught the window, a piece of cloth got stuck here.;Pero mira lo que tenemos aquí, algo o alguien cruzo por esta ventana y se le atasco un pedazo de tela.
+Dialogs/Player/Search/KnifeKitchen;Looks like a knife is missing. The victim lost it or someone grab it? And if so, where it is?;Que extraño, falta un cuchillo aquí. ¿La víctima lo perdió o alguién lo sacó?
+Dialogs/Player/Search/Nightstand;Uh, looks like there is something in there, hidden or stuck, hard to tell. I can't get it with my hands, need something the help me open the side of this.;¿Pero qué...? Hay algo atascado o escondido aquí. No puedo sacarlo con mis manos, necesito usar algo para abrir el costado de este velador.
+Dialogs/Player/Search/Bedroom;Well, someone definitely tried to find something in here. The question is, did they find it? ;Bueno, definitivamente es seguro decir que alguién se puso a buscar algo acá. La pregunta importante es… ¿Lo encontró?
+Dialogs/Player/Search/Camera;Oh yeah, the recording of this camera is going to be usefull. Apparently quite a few people got in and out the house yesterday up until midnight.;La grabación de esta cámara de seguridad será de mucha utilidad. Pareciera ser que muchas personas entraron y salieron de la propiedad hasta la medianoche.
+Dialogs/Player/Search/InvisibleInk;There you are, this little bottle is going to be very usefull.;Ahí estas, esta pequeña botella será de mucha utilidad.

@@ -223,9 +223,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 1
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 12521686}
   clue: {fileID: 11400000, guid: 47e655977c921324c8e370a4436067dc, type: 2}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: 7034793ca1a5621458f53bbe82d04d1d, type: 2}
   deactivateOnGrab: 1
   clueGrabed: 0
 --- !u!212 &12521688
@@ -1351,8 +1352,8 @@ MonoBehaviour:
       Data: 
   EnergyCost: 3
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 3d7154ebcca26c34592407e4cd3cbdf4, type: 2}
   hitbox: {fileID: 160534031}
-  DefaultAnswer: {fileID: 11400000, guid: 3d7154ebcca26c34592407e4cd3cbdf4, type: 2}
   OnNoInteraction:
     m_PersistentCalls:
       m_Calls: []
@@ -2717,8 +2718,9 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 2
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 194247697}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: a437a5b673f8e0a42abfe93a0ac63356, type: 2}
   SingleTrigger: 1
   OnSearch:
     m_PersistentCalls:
@@ -3733,10 +3735,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 3
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 345357612}
   requiredClue: {fileID: 11400000, guid: a7c2db807ead8c74ba8c30072917132c, type: 2}
-  DialogFeedbackCorrectItem: {fileID: 0}
-  DialogFeedbackWrongItem: {fileID: 0}
+  DialogFeedbackCorrectItem: {fileID: 11400000, guid: cc6ec4ffff8a46f45a38486476f60a95, type: 2}
   OnUse:
     m_PersistentCalls:
       m_Calls:
@@ -4121,8 +4123,8 @@ MonoBehaviour:
       Data: 
   EnergyCost: 3
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 92e0a722d26344649942e83d3f77f4f5, type: 2}
   hitbox: {fileID: 362627227}
-  DefaultAnswer: {fileID: 11400000, guid: 92e0a722d26344649942e83d3f77f4f5, type: 2}
   OnNoInteraction:
     m_PersistentCalls:
       m_Calls: []
@@ -4435,6 +4437,7 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 0
   hasCollider: 1
+  InvalidAction: {fileID: 0}
   hitbox: {fileID: 0}
   LocationTarget: {fileID: 587106068}
   WorldCanvas: {fileID: 0}
@@ -5280,9 +5283,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 1
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 560604813}
   clue: {fileID: 11400000, guid: 43500594720db224d9eb807076cfb6fa, type: 2}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: 0315633ac224b874ca7fad864bcbcc5f, type: 2}
   deactivateOnGrab: 1
   clueGrabed: 0
 --- !u!212 &560604815
@@ -6451,8 +6455,8 @@ MonoBehaviour:
       Data: 
   EnergyCost: 3
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 8d32585dae5fc5e49817604f9e716102, type: 2}
   hitbox: {fileID: 595644315}
-  DefaultAnswer: {fileID: 11400000, guid: 8d32585dae5fc5e49817604f9e716102, type: 2}
   OnNoInteraction:
     m_PersistentCalls:
       m_Calls: []
@@ -8202,8 +8206,9 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 2
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 658455186}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: 2a6dce10b20f6f94a877f36f3c25cc9b, type: 2}
   SingleTrigger: 1
   OnSearch:
     m_PersistentCalls:
@@ -8535,8 +8540,9 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 2
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 686707348}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: 97d24926e2289634f9bc501f8e52d572, type: 2}
   SingleTrigger: 1
   OnSearch:
     m_PersistentCalls:
@@ -9397,8 +9403,9 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 2
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 756994938}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: b7aeea3d5dd0d85418faca3deab6bf9f, type: 2}
   SingleTrigger: 1
   OnSearch:
     m_PersistentCalls:
@@ -11387,8 +11394,8 @@ MonoBehaviour:
       Data: 
   EnergyCost: 3
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: aae5795062fdbd2479bc9154748970f2, type: 2}
   hitbox: {fileID: 811239247}
-  DefaultAnswer: {fileID: 11400000, guid: aae5795062fdbd2479bc9154748970f2, type: 2}
   OnNoInteraction:
     m_PersistentCalls:
       m_Calls: []
@@ -12290,9 +12297,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 2
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 975235044}
-  DialogFeedback: {fileID: 0}
-  SingleTrigger: 0
+  DialogFeedback: {fileID: 11400000, guid: 4d7984ab456875c499e8837a81aac7c4, type: 2}
+  SingleTrigger: 1
   OnSearch:
     m_PersistentCalls:
       m_Calls:
@@ -12924,9 +12932,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 1
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 1046664278}
   clue: {fileID: 11400000, guid: 97b5cdbfd6db89f4d85345f873773ff0, type: 2}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: eb2fa45ca67c9a44384d4ea2a0d3ff73, type: 2}
   deactivateOnGrab: 1
   clueGrabed: 0
 --- !u!212 &1046664280
@@ -13845,8 +13854,9 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 2
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 1227946586}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: e58b38a352fb96a428a5bc207e6080a5, type: 2}
   SingleTrigger: 1
   OnSearch:
     m_PersistentCalls:
@@ -14811,9 +14821,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 1
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 1352229530}
   clue: {fileID: 11400000, guid: 9fe95566e4776224a8e1d3536cef1fa5, type: 2}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: 609da4e96bb57c6418402c40ad49d47e, type: 2}
   deactivateOnGrab: 1
   clueGrabed: 0
 --- !u!212 &1352229532
@@ -15125,9 +15136,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 1
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 1364982662}
   clue: {fileID: 11400000, guid: abc8dbda0f9ac6a4b8778db90e2df153, type: 2}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: 13dc4563ba6b1be4c9f15ece03e7b2d4, type: 2}
   deactivateOnGrab: 1
   clueGrabed: 0
 --- !u!212 &1364982664
@@ -16990,9 +17002,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 1
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 1722796012}
   clue: {fileID: 11400000, guid: 4e5366f0ca2ad474e92cde71b4d8f389, type: 2}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: ba438399ff14a7e43aba85c8f468d652, type: 2}
   deactivateOnGrab: 1
   clueGrabed: 0
 --- !u!212 &1722796014
@@ -19363,9 +19376,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 1
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 2018048781}
   clue: {fileID: 11400000, guid: 4ae0b73b2b1f5a947a4ebe8bd70d51ea, type: 2}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: a5b804a8bdc219340b4afd6f4b972f5b, type: 2}
   deactivateOnGrab: 1
   clueGrabed: 0
 --- !u!212 &2018048783
@@ -19494,8 +19508,9 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 2
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 2018514531}
-  DialogFeedback: {fileID: 0}
+  DialogFeedback: {fileID: 11400000, guid: e8a6dee028632e44bb7c484b0fdb1ed0, type: 2}
   SingleTrigger: 1
   OnSearch:
     m_PersistentCalls:
@@ -19892,10 +19907,10 @@ MonoBehaviour:
     SerializationNodes: []
   EnergyCost: 3
   hasCollider: 1
+  InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
   hitbox: {fileID: 2124276752}
   requiredClue: {fileID: 11400000, guid: 45bb0f4a2b80c8a4d8e445921c4329b9, type: 2}
-  DialogFeedbackCorrectItem: {fileID: 0}
-  DialogFeedbackWrongItem: {fileID: 0}
+  DialogFeedbackCorrectItem: {fileID: 11400000, guid: 9b9190e06f96e604892ad1159e8dc4cc, type: 2}
   OnUse:
     m_PersistentCalls:
       m_Calls:
@@ -21363,6 +21378,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1555200393}
+    - target: {fileID: 6102078556922300377, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+      propertyPath: InvalidItemUsage
+      value: 
+      objectReference: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
     - target: {fileID: 6955346595480104043, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

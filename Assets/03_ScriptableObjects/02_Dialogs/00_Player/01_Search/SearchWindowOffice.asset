@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e193370e7aad0949a1fa6c301809ffe, type: 3}
-  m_Name: UseWrongItem
+  m_Name: SearchWindowOffice
   m_EditorClassIdentifier: 
   ChrIcon: {fileID: 0}
-  DialogText: Dialogs/Player/Use/Wrong
+  DialogText: Dialogs/Player/Search/WindowOffice

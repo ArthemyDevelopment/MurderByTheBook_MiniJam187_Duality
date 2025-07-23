@@ -10,7 +10,7 @@ public class PresentClueToWitnes : BaseAction
 
     [BoxGroup("PresentClueToWitness")][OdinSerialize]private Dictionary<Clue, WitnesInformation> GetInfo;
 
-    [BoxGroup("PresentClueToWitness/InvalidClue")] [SerializeField] private Dialog DefaultAnswer;
+    //[BoxGroup("PresentClueToWitness/InvalidClue")] [SerializeField] private Dialog DefaultAnswer;
     [BoxGroup("PresentClueToWitness/InvalidClue")][SerializeField] private UnityEvent OnNoInteraction;
 
     private bool isUsed;
@@ -39,7 +39,7 @@ public class PresentClueToWitnes : BaseAction
         }
         else
         {
-            DialogManager.current.TriggerDialog(DefaultAnswer);
+            DialogManager.current.TriggerDialog(InvalidAction);
             OnNoInteraction.Invoke();
         }
         InteractionsManager.current.DeselectItem();

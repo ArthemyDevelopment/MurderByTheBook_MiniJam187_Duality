@@ -68,8 +68,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The girlfirend was stealing money from her husband to finance the writing
-    of books and the growth of the publishing house.
+  m_text: "La v\xEDctima trabajaba en una auto biograf\xEDa disfrazada de ficci\xF3n
+    confesando secretos. Su pareja y mejor amigo estaban en contra \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
   m_sharedMaterial: {fileID: 1279033634469437068, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}

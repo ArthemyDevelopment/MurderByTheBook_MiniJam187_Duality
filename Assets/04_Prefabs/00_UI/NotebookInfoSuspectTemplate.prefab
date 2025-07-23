@@ -230,12 +230,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Victim''s sister. They hate each other since childhood.
-
-
-
-    Was alegedly
-    out of town up until this morning.'
+  m_text: "Hermana de la v\xEDctima. Tienen una mala relaci\xF3n desde la infancia.\\n\\nAparentemente
+    estaba fuera da la ciudad hasta esta ma\xF1ana.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
   m_sharedMaterial: {fileID: 1279033634469437068, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
@@ -372,12 +368,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Victim''s sister. They hate each other since childhood.
-
-
-
-    Was alegedly
-    out of town up until this morning.'
+  m_text: "Hermana de la v\xEDctima. Tienen una mala relaci\xF3n desde la infancia.\\n\\nAparentemente
+    estaba fuera da la ciudad hasta esta ma\xF1ana.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}
   m_sharedMaterial: {fileID: 1279033634469437068, guid: 4091fe1d3d6832b4381c750b9d2a0167, type: 2}

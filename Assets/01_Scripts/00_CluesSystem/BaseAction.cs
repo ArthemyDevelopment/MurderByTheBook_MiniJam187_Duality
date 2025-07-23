@@ -6,6 +6,7 @@ public class BaseAction : SerializedMonoBehaviour
 {
     [BoxGroup("Base Action properties")][SerializeField] private float EnergyCost;
     [BoxGroup("Base Action properties")][SerializeField] private bool hasCollider = true;
+    [BoxGroup("Base Action properties")][SerializeField] protected Dialog InvalidAction;
     [BoxGroup("Base Action properties")][HideIf("@this.hasCollider == false")][SerializeField] private Collider2D hitbox;
 
 

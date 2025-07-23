@@ -14,6 +14,7 @@ public class GrabClueAction : BaseAction
         if (InteractionsManager.current.isItemSelected())
         {
             InteractionsManager.current.DeselectItem();
+            DialogManager.current.TriggerDialog(InvalidAction);
             return;
         }
             

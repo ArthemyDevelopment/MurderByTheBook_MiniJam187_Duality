@@ -5,6 +5,7 @@ public class MouseController : MonoBehaviour
 {
 
     private Action InteractionAction;
+    [SerializeField] private Dialog InvalidItemUsage;
 
 
     private void Awake()
@@ -72,7 +73,11 @@ public class MouseController : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(0) && InteractionAction == null)
         {
-            InteractionsManager.current.DeselectItem();
+            if (InteractionsManager.current.isItemSelected())
+            {
+                InteractionsManager.current.DeselectItem();
+                DialogManager.current.TriggerDialog(InvalidItemUsage);
+            }
         }
         
         

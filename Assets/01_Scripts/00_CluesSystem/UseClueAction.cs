@@ -6,7 +6,7 @@ public class UseClueAction : BaseAction
 {
     [BoxGroup("UseClueProperties")][SerializeField] private Clue requiredClue;
     [BoxGroup("UseClueProperties")][SerializeField] private Dialog DialogFeedbackCorrectItem;
-    [BoxGroup("UseClueProperties")][SerializeField] private Dialog DialogFeedbackWrongItem;
+    //[BoxGroup("UseClueProperties")][SerializeField] private Dialog DialogFeedbackWrongItem;
     [BoxGroup("UseClueProperties")][SerializeField] private UnityEvent OnUse;
 
     private bool isUsed;
@@ -32,7 +32,7 @@ public class UseClueAction : BaseAction
             DialogManager.current.TriggerDialog(DialogFeedbackCorrectItem);
             isUsed = true;
         }
-        else DialogManager.current.TriggerDialog(DialogFeedbackWrongItem);
+        else DialogManager.current.TriggerDialog(InvalidAction);
         
         InteractionsManager.current.DeselectItem();
         
