@@ -6,7 +6,13 @@ public class ChangeLocationAction : BaseAction
 {
     [BoxGroup("ChangeLocationActionProperties")][SerializeField] private Transform LocationTarget;
     [BoxGroup("ChangeLocationActionProperties")][SerializeField] private GameObject WorldCanvas;
+    private AudioSource SFX;
 
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        SFX = GetComponent<AudioSource>();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -22,6 +28,7 @@ public class ChangeLocationAction : BaseAction
     {
         base.TriggerAction();
         TPCamera();
+        if(SFX!=null)SFX.Play();
     }
 
     public void TPCamera()

@@ -129,8 +129,8 @@ GameObject:
   m_Component:
   - component: {fileID: 12521685}
   - component: {fileID: 12521688}
-  - component: {fileID: 12521687}
   - component: {fileID: 12521686}
+  - component: {fileID: 12521687}
   m_Layer: 0
   m_Name: GrabClueDiary
   m_TagString: SearchInteraction
@@ -222,9 +222,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 1
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 12521686}
+  hasCollider: 1
   clue: {fileID: 11400000, guid: 47e655977c921324c8e370a4436067dc, type: 2}
   DialogFeedback: {fileID: 11400000, guid: 7034793ca1a5621458f53bbe82d04d1d, type: 2}
   deactivateOnGrab: 1
@@ -249,6 +248,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -270,6 +271,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -706,6 +708,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -727,6 +731,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -918,6 +923,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -939,6 +946,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -1351,9 +1359,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
   EnergyCost: 3
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 3d7154ebcca26c34592407e4cd3cbdf4, type: 2}
-  hitbox: {fileID: 160534031}
+  hasCollider: 1
   OnNoInteraction:
     m_PersistentCalls:
       m_Calls: []
@@ -1423,6 +1430,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1444,6 +1453,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -2584,6 +2594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoToKitchen
       objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.8885136
@@ -2717,9 +2731,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 2
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 194247697}
+  hasCollider: 1
   DialogFeedback: {fileID: 11400000, guid: a437a5b673f8e0a42abfe93a0ac63356, type: 2}
   SingleTrigger: 1
   OnSearch:
@@ -2803,6 +2816,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2824,6 +2839,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -3573,9 +3589,9 @@ GameObject:
   m_Component:
   - component: {fileID: 345357615}
   - component: {fileID: 345357614}
+  - component: {fileID: 345357612}
   - component: {fileID: 345357617}
   - component: {fileID: 345357616}
-  - component: {fileID: 345357612}
   m_Layer: 0
   m_Name: UseItemPaperSecretHide
   m_TagString: SearchInteraction
@@ -3649,6 +3665,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3670,6 +3688,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -3734,9 +3753,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 3
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 345357612}
+  hasCollider: 1
   requiredClue: {fileID: 11400000, guid: a7c2db807ead8c74ba8c30072917132c, type: 2}
   DialogFeedbackCorrectItem: {fileID: 11400000, guid: cc6ec4ffff8a46f45a38486476f60a95, type: 2}
   OnUse:
@@ -4122,9 +4140,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
   EnergyCost: 3
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 92e0a722d26344649942e83d3f77f4f5, type: 2}
-  hitbox: {fileID: 362627227}
+  hasCollider: 1
   OnNoInteraction:
     m_PersistentCalls:
       m_Calls: []
@@ -4194,6 +4211,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4215,6 +4234,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -4436,9 +4456,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 0
-  hasCollider: 1
   InvalidAction: {fileID: 0}
-  hitbox: {fileID: 0}
+  hasCollider: 1
   LocationTarget: {fileID: 587106068}
   WorldCanvas: {fileID: 0}
 --- !u!1001 &425599720
@@ -4642,6 +4661,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4663,6 +4684,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -4802,6 +4824,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4823,6 +4847,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -5146,6 +5171,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5167,6 +5194,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -5189,8 +5217,8 @@ GameObject:
   m_Component:
   - component: {fileID: 560604812}
   - component: {fileID: 560604815}
-  - component: {fileID: 560604814}
   - component: {fileID: 560604813}
+  - component: {fileID: 560604814}
   m_Layer: 0
   m_Name: GrabClueStatuette
   m_TagString: SearchInteraction
@@ -5282,9 +5310,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 1
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 560604813}
+  hasCollider: 1
   clue: {fileID: 11400000, guid: 43500594720db224d9eb807076cfb6fa, type: 2}
   DialogFeedback: {fileID: 11400000, guid: 0315633ac224b874ca7fad864bcbcc5f, type: 2}
   deactivateOnGrab: 1
@@ -5309,6 +5336,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5330,6 +5359,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -5471,6 +5501,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5492,6 +5524,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -5638,6 +5671,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5659,6 +5694,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -6454,9 +6490,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
   EnergyCost: 3
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 8d32585dae5fc5e49817604f9e716102, type: 2}
-  hitbox: {fileID: 595644315}
+  hasCollider: 1
   OnNoInteraction:
     m_PersistentCalls:
       m_Calls: []
@@ -6526,6 +6561,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6547,6 +6584,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -6851,6 +6889,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6872,6 +6912,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -6939,6 +6980,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6960,6 +7003,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -8205,9 +8249,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 2
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 658455186}
+  hasCollider: 1
   DialogFeedback: {fileID: 11400000, guid: 2a6dce10b20f6f94a877f36f3c25cc9b, type: 2}
   SingleTrigger: 1
   OnSearch:
@@ -8291,6 +8334,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8312,6 +8357,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -8436,6 +8482,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8457,6 +8505,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -8539,9 +8588,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 2
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 686707348}
+  hasCollider: 1
   DialogFeedback: {fileID: 11400000, guid: 97d24926e2289634f9bc501f8e52d572, type: 2}
   SingleTrigger: 1
   OnSearch:
@@ -8625,6 +8673,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8646,6 +8696,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -8787,6 +8838,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8808,6 +8861,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -8874,7 +8928,7 @@ AudioSource:
   m_GameObject: {fileID: 701158424}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7639220172652964873, guid: 0d996a8ab0e79e045b7e8edc58d54073, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -9104,6 +9158,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9125,6 +9181,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -9166,6 +9223,10 @@ PrefabInstance:
     - target: {fileID: 3485171756322981866, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_Name
       value: GoToOutside
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalScale.x
@@ -9402,9 +9463,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 2
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 756994938}
+  hasCollider: 1
   DialogFeedback: {fileID: 11400000, guid: b7aeea3d5dd0d85418faca3deab6bf9f, type: 2}
   SingleTrigger: 1
   OnSearch:
@@ -9512,6 +9572,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9533,6 +9595,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -11393,9 +11456,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
   EnergyCost: 3
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: aae5795062fdbd2479bc9154748970f2, type: 2}
-  hitbox: {fileID: 811239247}
+  hasCollider: 1
   OnNoInteraction:
     m_PersistentCalls:
       m_Calls: []
@@ -11465,6 +11527,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11486,6 +11550,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -11590,6 +11655,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11611,6 +11678,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -11880,6 +11948,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11901,6 +11971,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -11968,6 +12039,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11989,6 +12062,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -12190,8 +12264,8 @@ GameObject:
   m_Component:
   - component: {fileID: 975235042}
   - component: {fileID: 975235046}
-  - component: {fileID: 975235045}
   - component: {fileID: 975235044}
+  - component: {fileID: 975235045}
   - component: {fileID: 975235043}
   m_Layer: 0
   m_Name: SearchClueInvisibleInk
@@ -12296,9 +12370,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 2
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 975235044}
+  hasCollider: 1
   DialogFeedback: {fileID: 11400000, guid: 4d7984ab456875c499e8837a81aac7c4, type: 2}
   SingleTrigger: 1
   OnSearch:
@@ -12360,6 +12433,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12381,6 +12456,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -12623,6 +12699,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12644,6 +12722,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -12854,8 +12933,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1046664281}
   - component: {fileID: 1046664280}
-  - component: {fileID: 1046664279}
   - component: {fileID: 1046664278}
+  - component: {fileID: 1046664279}
   m_Layer: 0
   m_Name: GrabClueBody
   m_TagString: SearchInteraction
@@ -12931,9 +13010,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 1
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 1046664278}
+  hasCollider: 1
   clue: {fileID: 11400000, guid: 97b5cdbfd6db89f4d85345f873773ff0, type: 2}
   DialogFeedback: {fileID: 11400000, guid: eb2fa45ca67c9a44384d4ea2a0d3ff73, type: 2}
   deactivateOnGrab: 1
@@ -12958,6 +13036,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12979,6 +13059,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -13140,6 +13221,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13161,6 +13244,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -13228,6 +13312,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13249,6 +13335,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -13293,6 +13380,10 @@ PrefabInstance:
     - target: {fileID: 3485171756322981866, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_Name
       value: GoToEntrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalScale.x
@@ -13853,9 +13944,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 2
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 1227946586}
+  hasCollider: 1
   DialogFeedback: {fileID: 11400000, guid: e58b38a352fb96a428a5bc207e6080a5, type: 2}
   SingleTrigger: 1
   OnSearch:
@@ -13963,6 +14053,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13984,6 +14076,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -14382,6 +14475,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14403,6 +14498,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -14654,6 +14750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoToEntrance
       objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.8415065
@@ -14727,8 +14827,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1352229529}
   - component: {fileID: 1352229532}
-  - component: {fileID: 1352229531}
   - component: {fileID: 1352229530}
+  - component: {fileID: 1352229531}
   m_Layer: 0
   m_Name: GrabCluePaper
   m_TagString: SearchInteraction
@@ -14820,9 +14920,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 1
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 1352229530}
+  hasCollider: 1
   clue: {fileID: 11400000, guid: 9fe95566e4776224a8e1d3536cef1fa5, type: 2}
   DialogFeedback: {fileID: 11400000, guid: 609da4e96bb57c6418402c40ad49d47e, type: 2}
   deactivateOnGrab: 1
@@ -14847,6 +14946,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14868,6 +14969,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -15040,8 +15142,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1364982661}
   - component: {fileID: 1364982664}
-  - component: {fileID: 1364982663}
   - component: {fileID: 1364982662}
+  - component: {fileID: 1364982663}
   m_Layer: 0
   m_Name: GrabClueGlass
   m_TagString: SearchInteraction
@@ -15135,9 +15237,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 1
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 1364982662}
+  hasCollider: 1
   clue: {fileID: 11400000, guid: abc8dbda0f9ac6a4b8778db90e2df153, type: 2}
   DialogFeedback: {fileID: 11400000, guid: 13dc4563ba6b1be4c9f15ece03e7b2d4, type: 2}
   deactivateOnGrab: 1
@@ -15162,6 +15263,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15183,6 +15286,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -15348,6 +15452,10 @@ PrefabInstance:
     - target: {fileID: 3485171756322981866, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_Name
       value: GoToOfice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalScale.x
@@ -16908,8 +17016,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1722796011}
   - component: {fileID: 1722796014}
-  - component: {fileID: 1722796013}
   - component: {fileID: 1722796012}
+  - component: {fileID: 1722796013}
   m_Layer: 0
   m_Name: GrabClueTornPaper
   m_TagString: SearchInteraction
@@ -17001,9 +17109,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 1
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 1722796012}
+  hasCollider: 1
   clue: {fileID: 11400000, guid: 4e5366f0ca2ad474e92cde71b4d8f389, type: 2}
   DialogFeedback: {fileID: 11400000, guid: ba438399ff14a7e43aba85c8f468d652, type: 2}
   deactivateOnGrab: 1
@@ -17028,6 +17135,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17049,6 +17158,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -18594,6 +18704,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18615,6 +18727,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -18638,6 +18751,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1284320932}
     m_Modifications:
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: SFX
+      value: 
+      objectReference: {fileID: 1868936217}
+    - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: hitbox
       value: 
       objectReference: {fileID: 1868936216}
@@ -18656,6 +18773,10 @@ PrefabInstance:
     - target: {fileID: 3485171756322981866, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_Name
       value: GoToBedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalScale.x
@@ -18718,6 +18839,11 @@ Transform:
 --- !u!61 &1868936216 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 2170562533753595437, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 1868936214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1868936217 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
   m_PrefabInstance: {fileID: 1868936214}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1873736063
@@ -18790,6 +18916,10 @@ PrefabInstance:
     - target: {fileID: 3485171756322981866, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_Name
       value: GoToKitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalScale.x
@@ -19064,6 +19194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoToOffice
       objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4989457
@@ -19212,6 +19346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoToEntrance_1
       objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.34
@@ -19282,8 +19420,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2018048780}
   - component: {fileID: 2018048783}
-  - component: {fileID: 2018048782}
   - component: {fileID: 2018048781}
+  - component: {fileID: 2018048782}
   m_Layer: 0
   m_Name: GrabCluePhoto
   m_TagString: SearchInteraction
@@ -19375,9 +19513,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 1
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 2018048781}
+  hasCollider: 1
   clue: {fileID: 11400000, guid: 4ae0b73b2b1f5a947a4ebe8bd70d51ea, type: 2}
   DialogFeedback: {fileID: 11400000, guid: a5b804a8bdc219340b4afd6f4b972f5b, type: 2}
   deactivateOnGrab: 1
@@ -19402,6 +19539,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19423,6 +19562,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -19507,9 +19647,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 2
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 2018514531}
+  hasCollider: 1
   DialogFeedback: {fileID: 11400000, guid: e8a6dee028632e44bb7c484b0fdb1ed0, type: 2}
   SingleTrigger: 1
   OnSearch:
@@ -19593,6 +19732,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19614,6 +19755,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -19906,9 +20048,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   EnergyCost: 3
-  hasCollider: 1
   InvalidAction: {fileID: 11400000, guid: 9b4729b79b651b744bec1ed5d4501dc0, type: 2}
-  hitbox: {fileID: 2124276752}
+  hasCollider: 1
   requiredClue: {fileID: 11400000, guid: 45bb0f4a2b80c8a4d8e445921c4329b9, type: 2}
   DialogFeedbackCorrectItem: {fileID: 11400000, guid: 9b9190e06f96e604892ad1159e8dc4cc, type: 2}
   OnUse:
@@ -19992,6 +20133,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20013,6 +20156,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -20726,6 +20870,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20747,6 +20893,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -20759,6 +20906,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1579748704}
     m_Modifications:
+    - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: SFX
+      value: 
+      objectReference: {fileID: 5956302727720065618}
     - target: {fileID: 1675514504536987494, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: WorldCanvas
       value: 
@@ -20774,6 +20925,10 @@ PrefabInstance:
     - target: {fileID: 3485171756322981866, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_Name
       value: GoToEntrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6784331531355632466, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20820,6 +20975,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+--- !u!82 &5956302727720065618 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5294437431605259765, guid: 2960bcf562135ef48ab2030c07b4a540, type: 3}
+  m_PrefabInstance: {fileID: 5956302727720065617}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6606986084774573961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21375,9 +21535,37 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5961697524718238982, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961697524718238982, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961697524718238982, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1555200393}
+    - target: {fileID: 5961697524718238982, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 8127615018898034831}
+    - target: {fileID: 5961697524718238982, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961697524718238982, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961697524718238982, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961697524718238982, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6102078556922300377, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
       propertyPath: InvalidItemUsage
       value: 
@@ -21437,8 +21625,113 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1514136301022638277, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8127615018898034831}
   m_SourcePrefab: {fileID: 100100000, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+--- !u!1 &8127615018898034830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1514136301022638277, guid: 854a44afe0ff2d847919a0f80276fff5, type: 3}
+  m_PrefabInstance: {fileID: 8127615018898034829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8127615018898034831
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127615018898034830}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 6576533181566620371, guid: 0d996a8ab0e79e045b7e8edc58d54073, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: d14bd33460480084cae49589b3c29e4e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &8525648603127564363
 Transform:
   m_ObjectHideFlags: 0

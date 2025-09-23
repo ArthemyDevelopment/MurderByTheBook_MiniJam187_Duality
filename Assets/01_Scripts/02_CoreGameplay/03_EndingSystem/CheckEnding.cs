@@ -14,16 +14,16 @@ public class CheckEnding : MonoBehaviour
         {
             if (EnergyManager.current.IsSolutionOnTime())
             {
-                TransitionsManager.current.ChangeScene("GoodEnding");
+                TransitionsManager.current.ChangeScene(Scenes.GoodEnding);
             }
             else
             {
-                TransitionsManager.current.ChangeScene("NeutralEnding");
+                TransitionsManager.current.ChangeScene(Scenes.NeutralEnding);
             }
         }
         else
         {
-            TransitionsManager.current.ChangeScene("BadEnding");
+            TransitionsManager.current.ChangeScene(Scenes.BadEnding);
         }
     }
 

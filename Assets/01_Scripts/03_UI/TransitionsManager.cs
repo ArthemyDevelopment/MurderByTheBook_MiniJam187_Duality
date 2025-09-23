@@ -7,7 +7,7 @@ public class TransitionsManager : SingletonManager<TransitionsManager>
 {
     [SerializeField] private Animator anim;
     private Transform tpCamerTarget;
-    private string sceneTarget;
+    private Scenes sceneTarget;
 
     public void TransitionLocation(Transform locationTarget)
     {
@@ -20,7 +20,7 @@ public class TransitionsManager : SingletonManager<TransitionsManager>
         Camera.main.transform.position = tpCamerTarget.position;
     }
 
-    public void ChangeScene(string scene)
+    public void ChangeScene(Scenes scene)
     {
         
         sceneTarget = scene;
@@ -30,6 +30,6 @@ public class TransitionsManager : SingletonManager<TransitionsManager>
 
     public void LoadScene()
     {
-        SceneManager.LoadScene(sceneTarget);
+        SceneManager.LoadScene((int)sceneTarget);
     }
 }

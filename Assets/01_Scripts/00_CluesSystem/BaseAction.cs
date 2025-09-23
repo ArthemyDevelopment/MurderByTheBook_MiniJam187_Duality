@@ -2,17 +2,20 @@ using System;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
 public class BaseAction : SerializedMonoBehaviour
 {
     [BoxGroup("Base Action properties")][SerializeField] private float EnergyCost;
-    [BoxGroup("Base Action properties")][SerializeField] private bool hasCollider = true;
     [BoxGroup("Base Action properties")][SerializeField] protected Dialog InvalidAction;
-    [BoxGroup("Base Action properties")][HideIf("@this.hasCollider == false")][SerializeField] private Collider2D hitbox;
+    [BoxGroup("Base Action properties")][SerializeField] private bool hasCollider = true;
+    private Collider2D hitbox;
+    
 
 
-    private void OnEnable()
+    protected virtual void OnEnable()
     {
-        if(hitbox!=null) HitboxRecognitionSystem.AddInteractableObject(hitbox, TriggerAction);
+        if(hasCollider)hitbox = GetComponent<Collider2D>();
+            if(hitbox!=null) HitboxRecognitionSystem.AddInteractableObject(hitbox, TriggerAction);
     }
 
     private void OnDisable()
@@ -23,5 +26,6 @@ public class BaseAction : SerializedMonoBehaviour
     public virtual void TriggerAction()
     {
         EnergyManager.current.SpendEnergy(EnergyCost);
+    
     }
 }

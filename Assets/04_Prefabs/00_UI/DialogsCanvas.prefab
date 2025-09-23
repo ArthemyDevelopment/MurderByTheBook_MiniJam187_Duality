@@ -275,7 +275,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 4294967295
 --- !u!114 &6647486329064157895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,7 +317,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 52d777e925548b146ad143de60ada9cb, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 52d777e925548b146ad143de60ada9cb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LM: {fileID: 0}
-  SetOnStart: 1
+  SetOnStart: 0
   B_alreadyStart: 0
   AffectedComponents: 0
   key: Language

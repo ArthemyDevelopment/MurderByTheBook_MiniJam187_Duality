@@ -30,12 +30,14 @@ public class DialogManager : SingletonManager<DialogManager>
     {
         if (dialog == null) return;
         InitDialogBox(dialog.ChrIcon);
+        isTextComplete = false;
+        DialogTextArea.maxVisibleCharacters = 0;
         ShowTextCoroutine = StartCoroutine(ShowText(dialog.DialogText));
     }
 
     private void InitDialogBox(Sprite sprite)
     {
-        showingText = true;
+        //showingText = true;
         Mouse.SetActive(false);
         OpenNotebook.SetActive(false);
 
@@ -64,13 +66,13 @@ public class DialogManager : SingletonManager<DialogManager>
 
     private IEnumerator ShowText(string text)
     {
-        isTextComplete = false;
         DialogLocalization.SetLocalizedObject(text);
         for (int i = 0; i < DialogTextArea.text.Length; i++)
         {
             DialogTextArea.maxVisibleCharacters = i + 1;
             TextSFX.Play();
             yield return ScriptsTools.GetWait(delayTextChar);
+            showingText = true;
         }
 
         isTextComplete = true;

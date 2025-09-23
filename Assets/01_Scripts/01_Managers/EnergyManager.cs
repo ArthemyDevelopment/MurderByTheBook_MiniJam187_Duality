@@ -52,7 +52,7 @@ public class EnergyManager : SingletonManager<EnergyManager>
         
         if (_currentEnergy <= 0)
         {
-            TransitionsManager.current.ChangeScene("OutOfTimeEnding");
+            TransitionsManager.current.ChangeScene(Scenes.OutOfTimeEnding);
         }
     }
 
