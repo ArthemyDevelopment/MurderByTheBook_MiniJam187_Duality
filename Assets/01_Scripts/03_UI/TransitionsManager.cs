@@ -6,18 +6,19 @@ using UnityEngine.SceneManagement;
 public class TransitionsManager : SingletonManager<TransitionsManager>
 {
     [SerializeField] private Animator anim;
-    private Transform tpCamerTarget;
+    private CamerasLocations tpCamerTarget;
     private Scenes sceneTarget;
 
-    public void TransitionLocation(Transform locationTarget)
+    public void TransitionLocation(CamerasLocations target, float targetPosition = 0.5f)
     {
-        tpCamerTarget = locationTarget;
+        tpCamerTarget = target;
+        CamerasManager.current.SetCameraPosition(tpCamerTarget, targetPosition);
         anim.SetTrigger("short");
     }
 
     public void TpCamera()
     {
-        Camera.main.transform.position = tpCamerTarget.position;
+        CamerasManager.current.ChangeCameras(tpCamerTarget);
     }
 
     public void ChangeScene(Scenes scene)

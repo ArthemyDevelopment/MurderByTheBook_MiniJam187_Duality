@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class InitianGameConfigManager : MonoBehaviour
 {
-    [SerializeField]private ChangeLocationAction StartLocation;
+    [SerializeField]private CamerasLocations StartLocation;
     [SerializeField]private List<Clue> StartingItems;
     [SerializeField]private List<Information> StartingInfo;
 
     private void Start()
     {
-         StartLocation.HardTPCamera();
+         CamerasManager.current.ChangeCameras(StartLocation);
          foreach (var clue in StartingItems)
          {
             InventoryManager.current.StoreClue(clue);    

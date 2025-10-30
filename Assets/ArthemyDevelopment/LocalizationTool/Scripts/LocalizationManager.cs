@@ -42,6 +42,11 @@ namespace ArthemyDevelopment.Localization
 			BetterStreamingAssets.Initialize();
 		}
 
+		public bool KeyExists(string _key)
+		{
+			return LocalizedText.ContainsKey(_key);
+		}
+
 		#region Localization File
 
 

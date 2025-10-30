@@ -5,24 +5,25 @@ using UnityEngine;
 
 public static class HitboxRecognitionSystem
 {
-    private static Dictionary<Collider2D, Action> _InteractionsDic= new Dictionary<Collider2D, Action>();
+    private static Dictionary<Transform, Action> _InteractionsDic= new Dictionary<Transform, Action>();
+    private static Dictionary<Collider2D, Action> _UIInteractionsDic= new Dictionary<Collider2D, Action>();
 
-    public static void AddInteractableObject(Collider2D col, Action method)
+    public static void AddInteractableObject(Transform col, Action method)
     {
         _InteractionsDic.Add(col, method);
     }
 
-    public static void RemoveInteratableObject(Collider2D col)
+    public static void RemoveInteratableObject(Transform col)
     {
         _InteractionsDic.Remove(col);
     }
 
-    public static bool ColliderHaveInteraction(Collider2D col)
+    public static bool ColliderHaveInteraction(Transform col)
     {
         return _InteractionsDic.ContainsKey(col);
     }
 
-    public static Action GetInteraction(Collider2D col)
+    public static Action GetInteraction(Transform col)
     {
         if(_InteractionsDic.ContainsKey(col))
             return _InteractionsDic[col];
@@ -34,7 +35,7 @@ public static class HitboxRecognitionSystem
         
     }
     
-    public static void TriggerInteraction(Collider2D col)
+    public static void TriggerInteraction(Transform col)
     {
         if(_InteractionsDic.ContainsKey(col))
             _InteractionsDic[col].Invoke();

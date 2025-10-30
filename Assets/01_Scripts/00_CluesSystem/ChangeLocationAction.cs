@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ChangeLocationAction : BaseAction
 {
-    [BoxGroup("ChangeLocationActionProperties")][SerializeField] private Transform LocationTarget;
-    [BoxGroup("ChangeLocationActionProperties")][SerializeField] private GameObject WorldCanvas;
+    [BoxGroup("ChangeLocationActionProperties")][SerializeField] private CamerasLocations LocationTarget;
+    [BoxGroup("ChangeLocationActionProperties")][SerializeField] private float targetPosition = 0.5f;
+    [BoxGroup("ChangeLocationActionProperties")][SerializeField] private GameObject GoToText;
     private AudioSource SFX;
 
     protected override void OnEnable()
@@ -14,16 +15,19 @@ public class ChangeLocationAction : BaseAction
         SFX = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public override void OnHover()
     {
-        if(other.CompareTag("Mouse")) WorldCanvas.SetActive(true);
+        base.OnHover();
+        GoToText.SetActive(true);
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    public override void StopHover()
     {
-        if(other.CompareTag("Mouse")) WorldCanvas.SetActive(false);
+        base.StopHover();
+        GoToText.SetActive(false);
     }
 
+    
     public override void TriggerAction()
     {
         base.TriggerAction();
@@ -33,12 +37,12 @@ public class ChangeLocationAction : BaseAction
 
     public void TPCamera()
     {
-        TransitionsManager.current.TransitionLocation(LocationTarget);
+        TransitionsManager.current.TransitionLocation(LocationTarget, targetPosition);
         
     }
 
     public void HardTPCamera()
     {
-        Camera.main.transform.position = LocationTarget.position;
+        CamerasManager.current.ChangeCameras(LocationTarget);
     }
 }

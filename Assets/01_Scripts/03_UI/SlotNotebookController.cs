@@ -7,7 +7,7 @@ public class SlotNotebookController : MonoBehaviour, IDragHandler, IPointerUpHan
     [SerializeField] private InventorySlotController SlotController;
     [SerializeField] private Collider2D _collider2D;
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         HitboxRecognitionSystem.AddInteractableObject(_collider2D,OnHover);
     }
@@ -15,7 +15,7 @@ public class SlotNotebookController : MonoBehaviour, IDragHandler, IPointerUpHan
     private void OnDisable()
     {
         HitboxRecognitionSystem.RemoveInteratableObject(_collider2D);
-    }
+    }*/
 
     public void OnHover()
     {

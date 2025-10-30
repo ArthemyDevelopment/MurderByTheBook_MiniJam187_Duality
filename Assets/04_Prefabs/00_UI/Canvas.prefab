@@ -399,10 +399,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2535361665537351312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -935, y: 0}
-  m_SizeDelta: {x: 50, y: 770}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 65.92804, y: 0}
+  m_SizeDelta: {x: 131.8562, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4807228197731491619
 CanvasRenderer:
@@ -499,7 +499,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 50, y: 770}
+  m_Size: {x: 131.8562, y: 1080}
   m_EdgeRadius: 0
 --- !u!1 &3049569292595781350
 GameObject:
@@ -958,6 +958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd7a9bef0bbfd604a948ff935bc1a01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InvalidItemUsage: {fileID: 0}
 --- !u!61 &5774695372332774322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1065,10 +1066,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2535361665537351312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 935, y: 1.4552e-11}
-  m_SizeDelta: {x: 50, y: 770}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -65.928, y: 0}
+  m_SizeDelta: {x: 131.8562, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7341757190018032586
 CanvasRenderer:
@@ -1165,7 +1166,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 50, y: 770}
+  m_Size: {x: 131.8562, y: 1080}
   m_EdgeRadius: 0
 --- !u!1001 &354448968071355278
 PrefabInstance:

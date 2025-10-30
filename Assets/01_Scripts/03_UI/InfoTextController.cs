@@ -12,13 +12,19 @@ public class InfoTextController : MonoBehaviour, IPointerEnterHandler
     private bool HighlightTurnOff;
 
     [SerializeField] private LocalizationObject textInfo;
+    [SerializeField] private TMP_Text hardSetText;
     [SerializeField] private bool HasIcon;
     [HideIf("@this.HasIcon==false")][SerializeField] private Image Icon;
 
 
     public void SetInfo(string text, Sprite icon)
     {
-        textInfo.SetLocalizedObject(text);
+        if (LocalizationManager.current.KeyExists(text)) textInfo.SetLocalizedObject(text);
+        else
+        {
+            textInfo.SetOnStart = false;
+            hardSetText.text = text;
+        }
         if(Icon!=null)Icon.sprite = icon;
     }
     

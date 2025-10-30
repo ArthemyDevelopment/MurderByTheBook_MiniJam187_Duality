@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
+using TMPro;
 using UnityEngine;
 
 public class NotebookInformationController : MonoBehaviour
@@ -8,11 +10,15 @@ public class NotebookInformationController : MonoBehaviour
     [BoxGroup("Information Holders/Parents")][SerializeField] private RectTransform SuspectParent;
     [BoxGroup("Information Holders/Parents")][SerializeField] private RectTransform LeadsParent;
     [BoxGroup("Information Holders/Parents")][SerializeField] private RectTransform FactsParent;
+    [BoxGroup("Information Holders/Parents")][SerializeField] private RectTransform NotesParent;
     [BoxGroup("Information Holders/Templates")][SerializeField] private GameObject TextTemplate;
     [BoxGroup("Information Holders/Templates")][SerializeField] private GameObject SuspectTemplate;
     [BoxGroup("Information Holders/SizeController")][SerializeField] private float PadingSize;
     [BoxGroup("Information Holders/SizeController")][SerializeField] private float TextTemplateSize;
     [BoxGroup("Information Holders/SizeController")][SerializeField] private float SuspectsTemplateSize;
+    [BoxGroup("Player Custom Notes"), SerializeField] private GameObject CreateNotePopUp;
+    [BoxGroup("Player Custom Notes"), SerializeField] private TMP_InputField CustomNoteInputField;
+    [BoxGroup("Player Custom Notes"), SerializeField]private List<PlayerNotes> PlayerCustomNotes= new List<PlayerNotes>();
     
     private Dictionary<Information, GameObject> PrevInfo = new Dictionary<Information, GameObject>();
 
@@ -20,6 +26,7 @@ public class NotebookInformationController : MonoBehaviour
     private void OnEnable()
     {
         OrganizeInformation(); 
+        CreateNotePopUp.SetActive(false);
     }
 
     public void OrganizeInformation()
@@ -68,12 +75,39 @@ public class NotebookInformationController : MonoBehaviour
         
     }
 
+    public void AddPlayerNote()
+    {
+        CreateNotePopUp.SetActive(true);
+    }
+
+    public void CancelPlayerNote()
+    {
+        CreateNotePopUp.SetActive(true);
+        CustomNoteInputField.text = "";
+    }
+
+    public void SavePlayerNote()
+    {
+        if (CustomNoteInputField.text == "") return;
+        CreateNotePopUp.SetActive(false);
+        var temp = SetUpNewInfo(TextTemplate, CustomNoteInputField.text, null, NotesParent);
+        PlayerCustomNotes.Add(new PlayerNotes(CustomNoteInputField.text,temp));
+        SetContainerHeight(NotesParent, TextTemplateSize);
+        CustomNoteInputField.text = "";
+    }
+
     private void SetUpNewInfo(GameObject template,Information info, RectTransform parent)
     {
+        var temp = SetUpNewInfo(template, info.informationText, info.icon, parent);
+        PrevInfo.Add(info, temp);
+    }
+    
+    private GameObject SetUpNewInfo(GameObject template,string informationText, Sprite icon, RectTransform parent)
+    {
         var temp = Instantiate(template, parent).GetComponent<InfoTextController>();
-        temp.SetInfo(info.informationText, info.icon);
-        temp.gameObject.SetActive(true);
-        PrevInfo.Add(info, temp.gameObject);
+        temp.SetInfo(informationText, icon);
+        temp.gameObject.SetActive(true); 
+        return temp.gameObject;
     }
 
     private void SetContainerHeight(RectTransform container, float templateSize)
@@ -83,4 +117,16 @@ public class NotebookInformationController : MonoBehaviour
         container.sizeDelta = new Vector2(container.sizeDelta.x, newHeight);
     }
 
+}
+[Serializable]
+public class PlayerNotes
+{
+    public string Text;
+    public GameObject Object;
+
+    public PlayerNotes(string _text, GameObject _gameObject)
+    {
+        Text = _text;
+        Object = _gameObject;
+    }
 }

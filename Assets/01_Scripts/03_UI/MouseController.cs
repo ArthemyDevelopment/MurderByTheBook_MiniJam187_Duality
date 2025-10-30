@@ -6,68 +6,81 @@ public class MouseController : MonoBehaviour
 
     private Action InteractionAction;
     [SerializeField] private Dialog InvalidItemUsage;
-
-
+    private bool isUIOpen=false;
+    private RaycastHit hit;
+    private Ray ray;
+    private BaseAction HoverAction;
     private void Awake()
     {
         Cursor.visible = false;
         
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void SetIsUi(bool state)
     {
-
-        if (HitboxRecognitionSystem.ColliderHaveInteraction(other))
-        {
-            InteractionAction = HitboxRecognitionSystem.GetInteraction(other);
-        }
-        
-        if (InteractionsManager.current.isItemSelected())return;
-        
-        if(other.CompareTag("LookInteraction"))
-        {
-            InteractionsManager.current.SetLookMouse();
-        }
-        else if(other.CompareTag("SearchInteraction"))
-        {
-            InteractionsManager.current.SetSearchMouse();
-        }
-        else if(other.CompareTag("ChangeScreenLeftInteraction"))
-        {
-            InteractionsManager.current.SetChangeSceneLeftMouse();
-        }
-        else if(other.CompareTag("ChangeScreenRightInteraction"))
-        {
-            InteractionsManager.current.SetChangeSceneRightMouse();
-        }
+        isUIOpen = state;
     }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (HitboxRecognitionSystem.ColliderHaveInteraction(other))
-        {
-            InteractionAction = null;
-        }
-
-        if (InteractionsManager.current.isItemSelected()) return;
-        
-        if (other.CompareTag("LookInteraction") ||
-            other.CompareTag("SearchInteraction") ||
-            other.CompareTag("ChangeScreenLeftInteraction") ||
-            other.CompareTag("ChangeScreenRightInteraction"))
-        {
-            InteractionsManager.current.SetDefaultMouse();
-        }
-    }
+    
 
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0)&&InteractionAction!=null)
+        if (!isUIOpen)
+        {
+            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (HitboxRecognitionSystem.ColliderHaveInteraction(hit.transform))
+                {
+                    var temp = hit.transform.GetComponent<BaseAction>();
+
+                    if (temp != HoverAction)
+                    {
+                        HoverAction?.StopHover();
+                        HoverAction = temp;
+                        HoverAction.OnHover();
+                    }
+                    
+                    InteractionAction = HitboxRecognitionSystem.GetInteraction(hit.transform);
+                }
+
+                if(!InteractionsManager.current.isItemSelected())
+                    switch (hit.transform.tag)
+                    {
+                        case "LookInteraction":
+                            InteractionsManager.current.SetLookMouse();
+                            break;
+                        case "SearchInteraction":
+                            InteractionsManager.current.SetSearchMouse();
+                            break;
+                        case "ChangeScreenLeftInteraction":
+                            InteractionsManager.current.SetChangeSceneLeftMouse();
+                            break;
+                        case "ChangeScreenRightInteraction":
+                            InteractionsManager.current.SetChangeSceneRightMouse();
+                            break;
+                        default:
+                            InteractionsManager.current.SetDefaultMouse();
+                            break;
+                    }
+            }
+            else
+            {
+                if(!InteractionsManager.current.isItemSelected())InteractionsManager.current.SetDefaultMouse();
+                InteractionAction = null;
+                if (HoverAction != null)
+                {
+                    HoverAction.StopHover();
+                    HoverAction = null;
+                }
+            }
+        }
+        
+        if (Input.GetMouseButtonUp(0)&&InteractionAction!=null)
         {
             InteractionAction.Invoke();
         }
-        else if (Input.GetMouseButtonDown(0) && InteractionAction == null)
+        else if (Input.GetMouseButtonUp(0) && InteractionAction == null)
         {
             if (InteractionsManager.current.isItemSelected())
             {
@@ -81,8 +94,6 @@ public class MouseController : MonoBehaviour
 
     private void LateUpdate()
     {
-        var screenPoint = Input.mousePosition;
-        screenPoint.z = 1.0f;
-        transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
+        transform.position = Input.mousePosition;
     }
 }

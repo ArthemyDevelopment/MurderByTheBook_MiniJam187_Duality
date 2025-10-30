@@ -10,7 +10,7 @@ public class MoveCameraTrigger : MonoBehaviour
     {
         if (other.CompareTag("Mouse")&&canMove)
         {
-            Camera.main.transform.Translate(moveVelocity,0,0);
+            CamerasManager.current.ActiveCamera.SplineSettings.Position += moveVelocity;
         }
         
     }
