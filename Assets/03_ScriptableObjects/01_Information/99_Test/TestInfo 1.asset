@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   type: 1
   icon: {fileID: 0}
-  informationText: 'This is a test info basjklsdfjklsdfjkl;asdfjkl;
-
-    asdfafaweraefefeaaf'
-  OverrideInfo: {fileID: 0}
+  informationText: Language
+  OverrideInfo:
+  - {fileID: 0}
+  BlockedByInfo: []

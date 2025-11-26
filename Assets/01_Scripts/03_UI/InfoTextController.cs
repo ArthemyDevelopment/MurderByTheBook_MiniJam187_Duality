@@ -22,7 +22,7 @@ public class InfoTextController : MonoBehaviour, IPointerEnterHandler
         if (LocalizationManager.current.KeyExists(text)) textInfo.SetLocalizedObject(text);
         else
         {
-            textInfo.SetOnStart = false;
+            //textInfo.SetOnStart = false;
             hardSetText.text = text;
         }
         if(Icon!=null)Icon.sprite = icon;

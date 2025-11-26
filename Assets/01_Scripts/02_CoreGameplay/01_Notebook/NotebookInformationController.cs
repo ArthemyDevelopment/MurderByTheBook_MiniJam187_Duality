@@ -12,6 +12,7 @@ public class NotebookInformationController : MonoBehaviour
     [BoxGroup("Information Holders/Parents")][SerializeField] private RectTransform FactsParent;
     [BoxGroup("Information Holders/Parents")][SerializeField] private RectTransform NotesParent;
     [BoxGroup("Information Holders/Templates")][SerializeField] private GameObject TextTemplate;
+    [BoxGroup("Information Holders/Templates")][SerializeField] private GameObject CustomNoteTextTemplate;
     [BoxGroup("Information Holders/Templates")][SerializeField] private GameObject SuspectTemplate;
     [BoxGroup("Information Holders/SizeController")][SerializeField] private float PadingSize;
     [BoxGroup("Information Holders/SizeController")][SerializeField] private float TextTemplateSize;
@@ -82,7 +83,7 @@ public class NotebookInformationController : MonoBehaviour
 
     public void CancelPlayerNote()
     {
-        CreateNotePopUp.SetActive(true);
+        CreateNotePopUp.SetActive(false);
         CustomNoteInputField.text = "";
     }
 
@@ -90,7 +91,7 @@ public class NotebookInformationController : MonoBehaviour
     {
         if (CustomNoteInputField.text == "") return;
         CreateNotePopUp.SetActive(false);
-        var temp = SetUpNewInfo(TextTemplate, CustomNoteInputField.text, null, NotesParent);
+        var temp = SetUpNewInfo(CustomNoteTextTemplate, CustomNoteInputField.text, null, NotesParent);
         PlayerCustomNotes.Add(new PlayerNotes(CustomNoteInputField.text,temp));
         SetContainerHeight(NotesParent, TextTemplateSize);
         CustomNoteInputField.text = "";

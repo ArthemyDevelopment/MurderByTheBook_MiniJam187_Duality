@@ -30,6 +30,7 @@ public class GrabClueAction : BaseAction
         InventoryManager.current.StoreClue(clue);
         clueGrabed = true;
         DialogManager.current.TriggerDialog(DialogFeedback);
+        ClueFeedbackManager.current.ShowFeedback(clue);
         if (deactivateOnGrab) gameObject.SetActive(false);
         else
         {

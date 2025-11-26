@@ -7,7 +7,7 @@ using UnityEngine;
 public class Information : SerializedScriptableObject
 {
     public InfoTypes type;
-    public Sprite icon; 
+    /*[ShowIf("@this.type==InfoTypes.SUSPECTS")]*/public Sprite icon; 
     [KeysPopUp]public string informationText;
     [SerializeField] public List<Information> OverrideInfo;
     [SerializeField] public List<Information> BlockedByInfo;

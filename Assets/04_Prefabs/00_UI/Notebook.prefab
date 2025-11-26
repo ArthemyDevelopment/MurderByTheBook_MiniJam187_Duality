@@ -565,6 +565,7 @@ MonoBehaviour:
   FactsParent: {fileID: 3342309013924546213}
   NotesParent: {fileID: 718584804627443220}
   TextTemplate: {fileID: 3690098398492535843, guid: e29ad4f69c5a7124ca771d439dde70c5, type: 3}
+  CustomNoteTextTemplate: {fileID: 3690098398492535843, guid: 76cff09827b59534795a618a0a23907c, type: 3}
   SuspectTemplate: {fileID: 4354626464824465114, guid: 1937b58c50262c446891855144171045, type: 3}
   PadingSize: 30
   TextTemplateSize: 60
@@ -4817,7 +4818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9827044, g: 1, b: 0.8443396, a: 1}
+  m_Color: {r: 0.7783019, g: 0.8579439, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5967,7 +5968,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8422091572053128601
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12016,7 +12017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7783019, g: 0.8579439, b: 1, a: 1}
+  m_Color: {r: 0.9827044, g: 1, b: 0.8443396, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13496,7 +13497,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 3291072500657256959}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine

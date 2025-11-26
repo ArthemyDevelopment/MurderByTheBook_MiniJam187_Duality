@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LM: {fileID: 0}
-  SetOnStart: 1
+  SetOnStart: 0
   B_alreadyStart: 0
   AffectedComponents: 0
   key: Language

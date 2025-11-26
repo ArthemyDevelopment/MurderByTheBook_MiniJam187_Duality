@@ -1,0 +1,67 @@
+OVDF v1.0
+Clue, Assembly-CSharp
+
+# $JR4jf8a38Tq6rSpr8peVWM
+Position: $root:3
++ [Sirenix.OdinInspector.VerticalGroupAttribute]
+
+# $GEnbmBeYHrioTDshv3pqJg
+Position: $24NU7RFvuZPCQ6gGaodQvU:0
++ [Sirenix.OdinInspector.HorizontalGroupAttribute]
+
+# $P9Wa4hb73bxnjmqjHcDPXb
+Position: $GEnbmBeYHrioTDshv3pqJg:0
++ [Sirenix.OdinInspector.VerticalGroupAttribute]
+	PaddingTop = 5
+
+# $24NU7RFvuZPCQ6gGaodQvU
+Position: $JR4jf8a38Tq6rSpr8peVWM:0
++ [Sirenix.OdinInspector.BoxGroupAttribute]
+	GroupName = "Clue Information "
+	HideWhenChildrenAreInvisible = False
+	ShowLabel = True
+	CenterLabel = True
+
+# $EsnaAkRsawd7rgYzCVVEpV
+Position: $root:4
++ [Sirenix.OdinInspector.BoxGroupAttribute]
+	ShowLabel = True
+	CenterLabel = True
+	GroupName = "Interactions"
+
+# Reusable
++ [Sirenix.OdinInspector.ToggleLeftAttribute]
+
+# Icon
+Position: $GEnbmBeYHrioTDshv3pqJg:1
++ [Sirenix.OdinInspector.PreviewFieldAttribute]
+	Height = 0
+	FilterMode = Bilinear
++ [Sirenix.OdinInspector.HideLabelAttribute]
+
+# Name
+Position: $P9Wa4hb73bxnjmqjHcDPXb:0
+
+# Description
+Position: $P9Wa4hb73bxnjmqjHcDPXb:1
+
+# Combinations
+Position: $EsnaAkRsawd7rgYzCVVEpV:0
+
+# GiveInformation
+Position: $EsnaAkRsawd7rgYzCVVEpV:1
+
+# multipleInformation
+Position: $EsnaAkRsawd7rgYzCVVEpV:2
+
+# ClueInformation
+Position: $EsnaAkRsawd7rgYzCVVEpV:3
+
+# MultiInformation
+Position: $EsnaAkRsawd7rgYzCVVEpV:4
+
+# ForceReplaceClue
+Position: $EsnaAkRsawd7rgYzCVVEpV:5
+
+# clueToReplace
+Position: $EsnaAkRsawd7rgYzCVVEpV:6

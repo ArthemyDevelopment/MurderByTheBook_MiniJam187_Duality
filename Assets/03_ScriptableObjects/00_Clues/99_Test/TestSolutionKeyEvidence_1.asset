@@ -43,8 +43,12 @@ MonoBehaviour:
       Data: 
   Reusable: 0
   Icon: {fileID: 21300000, guid: cd31d5d598064974aa00524a4991c31e, type: 3}
-  Name: 
-  Description: 
+  Name: Language
+  Description: Language
   GiveInformation: 0
+  multipleInformation: 0
   ClueInformation: {fileID: 0}
+  MultiInformation: []
+  ForceReplaceClue: 0
+  clueToReplace: {fileID: 0}
   type: 2

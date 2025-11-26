@@ -9,4 +9,12 @@ public enum Scenes
     NeutralEnding,
     OutOfTimeEnding,
     
-} 
+}
+
+public enum ConversationNpcs
+{
+    Police,
+    Sister,
+    Friend,
+    HouseKeeper,
+}

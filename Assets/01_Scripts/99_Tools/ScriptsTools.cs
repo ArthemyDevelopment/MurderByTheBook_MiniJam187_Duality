@@ -5,9 +5,11 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using Object = UnityEngine.Object;
+using Utilities.Async;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -18,6 +20,18 @@ namespace ArthemyDev.ScriptsTools
     public static class ScriptsTools
     {
 
+        public static async Task DelayAction(Action method, float time)
+        {
+            await Awaiters.DelayAsync((int)(time*1000));
+            method.Invoke();
+        }
+        
+        public static IEnumerator DelayAction<T>(Action<T> method,T parameter, float time)
+        {
+            yield return GetWait(time);
+            method.Invoke(parameter);
+        }
+        
         //Change a variable from one value to another with a delay
         public static IEnumerator DelayedVarChange<T>(Action<T> variable, float time, T startValue, T endValue)
         {

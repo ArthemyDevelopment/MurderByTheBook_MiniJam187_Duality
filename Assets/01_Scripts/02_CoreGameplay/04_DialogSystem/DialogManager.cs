@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using ArthemyDev.ScriptsTools;
 using ArthemyDevelopment.Localization;
-using JetBrains.Annotations;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
@@ -21,6 +20,12 @@ public class DialogManager : SingletonManager<DialogManager>
     [BoxGroup("Dialog properties/Sizes")][SerializeField]private float DialogTextAreaSize_Witness;
     [BoxGroup("Dialog properties/Sizes")][SerializeField]private float DialogTextAreaSize_Player;
     [BoxGroup("Dialog properties")][SerializeField]private float delayTextChar;
+    
+    public delegate void DialogEvent();
+    
+    public DialogEvent OnCloseDialog;
+    
+    
     private Coroutine ShowTextCoroutine;
     private bool showingText;
     private bool isTextComplete;
@@ -81,6 +86,7 @@ public class DialogManager : SingletonManager<DialogManager>
 
     private void CloseDialogBox()
     {
+        OnCloseDialog?.Invoke();
         DialogBox.SetActive(false);
         Mouse.SetActive(true);
         OpenNotebook.SetActive(true);

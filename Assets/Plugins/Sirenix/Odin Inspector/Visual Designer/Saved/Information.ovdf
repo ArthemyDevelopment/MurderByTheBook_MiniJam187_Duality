@@ -1,0 +1,46 @@
+OVDF v1.0
+Information, Assembly-CSharp
+
+# $2pHEeDs6pqA9bZngyP7SkN
+Position: $root:2
++ [Sirenix.OdinInspector.BoxGroupAttribute]
+	GroupName = "Suspect Information"
+	CenterLabel = True
+	ShowLabel = True
+
+# $WFP7P8XRcw1b7Vxy3BuzLY
+Position: $2pHEeDs6pqA9bZngyP7SkN:0
++ [Sirenix.OdinInspector.HorizontalGroupAttribute]
+
+# $34HRZrBXPP16rQF1a5gYiT
+Position: $WFP7P8XRcw1b7Vxy3BuzLY:0
++ [Sirenix.OdinInspector.VerticalGroupAttribute]
+
+# $AdP54nFzkPvvzfBntjRSUs
+Position: $WFP7P8XRcw1b7Vxy3BuzLY:1
++ [Sirenix.OdinInspector.VerticalGroupAttribute]
+
+# $Rk1omYvqfvNe4jhYRqoZuU
+Position: $root:7
++ [Sirenix.OdinInspector.BoxGroupAttribute]
+	GroupName = "Information"
+	CenterLabel = True
+	ShowLabel = True
+
+# type
+Position: $34HRZrBXPP16rQF1a5gYiT:0
+
+# icon
+Position: $AdP54nFzkPvvzfBntjRSUs:0
++ [Sirenix.OdinInspector.PreviewFieldAttribute]
++ [Sirenix.OdinInspector.ShowIfAttribute]
+	Condition = "@this.type==InfoTypes.SUSPECTS"
+
+# informationText
+Position: $34HRZrBXPP16rQF1a5gYiT:1
+
+# OverrideInfo
+Position: $Rk1omYvqfvNe4jhYRqoZuU:0
+
+# BlockedByInfo
+Position: $Rk1omYvqfvNe4jhYRqoZuU:1
